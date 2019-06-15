@@ -1,0 +1,304 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_Defines</name>
+      <values lines_count="1">
+        <Line>"FSL_OSA_BM_TIMER_CONFIG=0"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Linker_OtherC</name>
+      <value>-specs=nosys.specs -specs=nano.specs -Xlinker -z -Xlinker muldefs</value>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="44">
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKL16Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKL16Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MKL16Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MKL16Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MKL16Z4/include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/utilities/src"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/utilities/src"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/utilities/src"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/utilities/src"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/utilities/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MKL16Z4/startup"</Line>
+        <Line>"${ProjDirPath}/Generated_Code/SDK/platform/devices/MKL16Z4/startup"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_cpp_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_MKL16Z128VLH4"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Linker_OtherCpp</name>
+      <value>-specs=nosys.specs -specs=nano.specs -Xlinker -z -Xlinker muldefs</value>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Asm_Defines</name>
+      <values lines_count="1">
+        <Line>"FSL_OSA_BM_TIMER_CONFIG=0"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_MKL16Z128VLH4"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_CompilerCpp_SearchUserPaths</name>
+      <values lines_count="44">
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKL16Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/src/sim/MKL16Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MKL16Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/src/clock/MKL16Z4"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/system/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/osa/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/drivers/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/CMSIS/Include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MKL16Z4/include"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/hal/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/utilities/src"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/utilities/src"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/utilities/src"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/utilities/src"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/utilities/inc"</Line>
+        <Line>"${ProjDirPath}/SDK/platform/devices/MKL16Z4/startup"</Line>
+        <Line>"${ProjDirPath}/Generated_Code/SDK/platform/devices/MKL16Z4/startup"</Line>
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_CompilerCpp_Defines</name>
+      <values lines_count="1">
+        <Line>"FSL_OSA_BM_TIMER_CONFIG=0"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="SDK/platform/devices/MKL16Z4/startup/system_MKL16Z4.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371277" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/readme_gdbBacktraceDebug.txt" FileDate="2019-06-10, 11:16:35" FileAge="1560176195225" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/heap_1.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195130" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_common.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371188" FileType="1048576" CompNumb="29" />
+      <File Name="Sources/main.c" FileDate="1969-12-31, 20:59:59" FileAge="-1" FileType="128" />
+      <File Name="Static_Code/System/PE_low_level_init.c" FileDate="2019-06-10, 10:21:06" FileAge="1560172866377" FileType="1048576" CompNumb="16" />
+      <File Name="Documentation/doxygen/pex.doxyfile" FileDate="2019-06-10, 10:21:06" FileAge="1560172866388" FileType="45637" CompNumb="16" />
+      <File Name="SDK/platform/hal/src/lpsci/fsl_lpsci_hal.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371242" FileType="1048576" CompNumb="16" />
+      <File Name="Sources/Events.h" FileDate="2019-06-10, 11:49:22" FileAge="1560178162122" FileType="131328" />
+      <File Name="SDK/platform/hal/src/port/fsl_port_hal.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371030" FileType="1048576" CompNumb="0" />
+      <File Name="Sources/Events.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195293" FileType="131328" />
+      <File Name="Generated_Code/FRTOS1config.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195233" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/osa/src/fsl_os_abstraction_bm.c" FileDate="1969-12-31, 20:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="Generated_Code/board.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371802" FileType="45637" CompNumb="8" />
+      <File Name="SDK/platform/hal/inc/fsl_uart_hal.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371238" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/system/src/interrupt/fsl_interrupt_manager.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371068" FileType="1048576" CompNumb="14" />
+      <File Name="SDK/platform/hal/inc/fsl_dmamux_hal.h" FileDate="2019-06-10, 11:49:20" FileAge="1560178160632" FileType="1048576" CompNumb="45" />
+      <File Name="Generated_Code/PE_low_level_init.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371396" FileType="45637" CompNumb="16" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmFunc.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371203" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/drivers/inc/fsl_spi_dma_slave_driver.h" FileDate="1969-12-31, 20:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_port_hal.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371035" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/hal/inc/fsl_osc_hal.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371088" FileType="1048576" CompNumb="27" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmSimd.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371201" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/.gdbinit-FreeRTOS-helpers" FileDate="2019-06-10, 11:16:35" FileAge="1560176195227" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/dmaController1.h" FileDate="2019-06-10, 11:49:21" FileAge="1560178161718" FileType="45637" CompNumb="44" />
+      <File Name="SDK/platform/devices/MKL16Z4/startup/gcc/startup_MKL16Z4.S" FileDate="2019-06-10, 11:02:51" FileAge="1560175371274" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/CMSIS/Include/arm_common_tables.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371207" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/hal/inc/fsl_sim_hal.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371038" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/dmaController1.c" FileDate="2019-06-10, 11:49:21" FileAge="1560178161714" FileType="45637" CompNumb="44" />
+      <File Name="SDK/platform/utilities/inc/fsl_misc_utilities.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371264" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/drivers/src/spi/fsl_spi_master_driver.c" FileDate="2019-06-10, 13:28:49" FileAge="1560184129369" FileType="1048576" CompNumb="40" />
+      <File Name="SDK/platform/CMSIS/Include/arm_math.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371212" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/drivers/src/dma/fsl_dma_common.c" FileDate="2019-06-10, 11:49:20" FileAge="1560178160639" FileType="1048576" CompNumb="44" />
+      <File Name="SDK/platform/drivers/src/spi/fsl_spi_common.c" FileDate="2019-06-10, 11:22:02" FileAge="1560176522338" FileType="1048576" CompNumb="40" />
+      <File Name="Generated_Code/semphr.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195183" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/hal/src/dmamux/fsl_dmamux_hal.c" FileDate="2019-06-10, 11:49:20" FileAge="1560178160630" FileType="1048576" CompNumb="45" />
+      <File Name="SDK/platform/CMSIS/Include/core_cm0plus.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371199" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/timers.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195193" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/message_buffer.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195211" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/timers.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195196" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371052" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/drivers/src/spi/fsl_spi_shared_function.c" FileDate="2019-06-10, 13:28:49" FileAge="1560184129374" FileType="1048576" CompNumb="40" />
+      <File Name="SDK/platform/hal/src/rtc/fsl_rtc_hal.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371093" FileType="1048576" CompNumb="28" />
+      <File Name="SDK/platform/drivers/inc/fsl_gpio_driver.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371193" FileType="1048576" CompNumb="29" />
+      <File Name="Generated_Code/mpu_wrappers.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195217" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/mpu_wrappers.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195222" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/utilities/src/print_scan.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371257" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/devices/MKL16Z4/include/MKL16Z4_extension.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371229" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/gpio1.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371419" FileType="45637" CompNumb="29" />
+      <File Name="SDK/platform/utilities/src/print_scan.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371255" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/gpio1.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371416" FileType="45637" CompNumb="29" />
+      <File Name="Generated_Code/deprecated_definitions.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195172" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/queue.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195180" FileType="45637" CompNumb="38" />
+      <File Name="Documentation/minicurso-eeprom-driver_Settings.xml" FileDate="2019-06-10, 11:49:23" FileAge="1560178163067" FileType="3072" />
+      <File Name="SDK/platform/system/inc/fsl_clock_manager.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371109" FileType="1048576" CompNumb="24" />
+      <File Name="SDK/platform/system/src/clock/fsl_clock_manager_common.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371101" FileType="1048576" CompNumb="24" />
+      <File Name="Generated_Code/queue.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195178" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/hal/src/mcg/fsl_mcg_hal_modes.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371055" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/stack_macros.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195185" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/drivers/src/rtc/fsl_rtc_common.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371117" FileType="1048576" CompNumb="24" />
+      <File Name="Generated_Code/UTIL1.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371777" FileType="45637" CompNumb="20" />
+      <File Name="Generated_Code/UTIL1.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371772" FileType="45637" CompNumb="20" />
+      <File Name="SDK/platform/drivers/inc/fsl_dma_request.h" FileDate="2019-06-10, 11:49:20" FileAge="1560178160644" FileType="1048576" CompNumb="44" />
+      <File Name="SDK/platform/hal/src/dma/fsl_dma_hal.c" FileDate="2019-06-10, 11:49:20" FileAge="1560178160635" FileType="1048576" CompNumb="46" />
+      <File Name="SDK/platform/utilities/src/fsl_misc_utilities.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371253" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/hal/inc/fsl_spi_hal.h" FileDate="2019-06-10, 11:22:02" FileAge="1560176522334" FileType="1048576" CompNumb="41" />
+      <File Name="Generated_Code/portasm.s" FileDate="2019-06-10, 11:16:35" FileAge="1560176195167" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/task.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195188" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/drivers/inc/fsl_spi_shared_function.h" FileDate="2019-06-10, 13:28:49" FileAge="1560184129378" FileType="1048576" CompNumb="40" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371081" FileType="1048576" CompNumb="35" />
+      <File Name="SDK/platform/devices/MKL16Z4/include/MKL16Z4.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371225" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/hal/inc/fsl_rtc_hal.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371095" FileType="1048576" CompNumb="28" />
+      <File Name="SDK/platform/drivers/src/gpio/fsl_gpio_driver.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371190" FileType="1048576" CompNumb="29" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.ld" FileDate="2019-06-10, 10:29:03" FileAge="1560173343908" FileType="8" CompNumb="16" />
+      <File Name="Generated_Code/projdefs.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195175" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/devices/MKL16Z4/include/fsl_bitaccess.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371222" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/heap_4.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195139" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/portmacro.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195170" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/utilities/src/fsl_debug_console.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371251" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/heap_2.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195133" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371465" FileType="45637" CompNumb="24" />
+      <File Name="Generated_Code/list.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195153" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371460" FileType="45637" CompNumb="24" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction_free_rtos.h" FileDate="2019-06-10, 11:16:33" FileAge="1560176193998" FileType="1048576" CompNumb="35" />
+      <File Name="Generated_Code/MCUC1config.h" FileDate="2019-06-10, 11:22:03" FileAge="1560176523835" FileType="45637" CompNumb="19" />
+      <File Name="Generated_Code/event_groups.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195202" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/list.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195156" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/event_groups.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195199" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/hal/src/uart/fsl_uart_hal.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371236" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/utilities/inc/fsl_debug_console.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371262" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/heap_useNewlib.txt" FileDate="2019-06-10, 11:16:35" FileAge="1560176195147" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/drivers/src/spi/fsl_spi_dma_slave_driver.c" FileDate="1969-12-31, 20:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="Generated_Code/FreeRTOSConfig.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195127" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/CMSIS/Include/arm_const_structs.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371209" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/drivers/src/spi/fsl_spi_dma_master_driver.c" FileDate="1969-12-31, 20:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371269" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/UTIL1config.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371768" FileType="45637" CompNumb="20" />
+      <File Name="SDK/platform/hal/inc/fsl_mcg_hal_modes.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371060" FileType="1048576" CompNumb="0" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371267" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/FRTOS1.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195230" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/spiEEPROM.h" FileDate="2019-06-10, 13:28:50" FileAge="1560184130943" FileType="45637" CompNumb="40" />
+      <File Name="Generated_Code/FRTOS1.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195236" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/spiEEPROM.c" FileDate="2019-06-10, 13:28:50" FileAge="1560184130947" FileType="45637" CompNumb="40" />
+      <File Name="SDK/platform/system/inc/fsl_interrupt_manager.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371071" FileType="1048576" CompNumb="14" />
+      <File Name="Generated_Code/freertos_tasks_c_additions.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195214" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/hal/inc/fsl_mcg_hal.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371056" FileType="1048576" CompNumb="0" />
+      <File Name="Documentation/doxygen/minicurso-eeprom-driver_project.txt" FileDate="2019-06-10, 10:21:06" FileAge="1560172866393" FileType="45637" CompNumb="16" />
+      <File Name="Generated_Code/port.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195159" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/osa/inc/fsl_os_abstraction_bm.h" FileDate="1969-12-31, 20:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="Generated_Code/osa1.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371796" FileType="45637" CompNumb="35" />
+      <File Name="Generated_Code/portable.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195164" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/hal/src/gpio/fsl_gpio_hal.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371181" FileType="1048576" CompNumb="30" />
+      <File Name="Generated_Code/osa1.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371790" FileType="45637" CompNumb="35" />
+      <File Name="SDK/platform/drivers/inc/fsl_spi_dma_master_driver.h" FileDate="1969-12-31, 20:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="Generated_Code/stream_buffer.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195208" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/SDK/platform/devices/MKL16Z4/startup/system_MKL16Z4.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371453" FileType="45637" CompNumb="24" />
+      <File Name="SDK/platform/drivers/src/dma/fsl_dma_driver.c" FileDate="2019-06-10, 11:49:20" FileAge="1560178160641" FileType="1048576" CompNumb="44" />
+      <File Name="Generated_Code/stream_buffer.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195205" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/FreeRTOS_license.txt" FileDate="2019-06-10, 11:16:35" FileAge="1560176195151" FileType="45637" CompNumb="38" />
+      <File Name="Documentation/doxygen/pex.css" FileDate="2019-06-10, 10:21:05" FileAge="1560172865685" FileType="16384" CompNumb="16" />
+      <File Name="SDK/platform/CMSIS/Include/core_cmInstr.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371205" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/drivers/inc/fsl_spi_master_driver.h" FileDate="2019-06-10, 13:28:49" FileAge="1560184129382" FileType="1048576" CompNumb="40" />
+      <File Name="ProjectInfo.xml" FileDate="2019-06-10, 13:28:54" FileAge="1560184134051" FileType="45637" />
+      <File Name="SDK/platform/osa/src/fsl_os_abstraction_free_rtos.c" FileDate="2019-06-10, 11:16:33" FileAge="1560176193985" FileType="1048576" CompNumb="35" />
+      <File Name="SDK/platform/system/src/clock/MKL16Z4/fsl_clock_MKL16Z4.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371106" FileType="1048576" CompNumb="24" />
+      <File Name="Generated_Code/croutine.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195119" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2019-06-10, 11:22:03" FileAge="1560176523824" FileType="45637" CompNumb="8" />
+      <File Name="SDK/platform/system/src/clock/MKL16Z4/fsl_clock_MKL16Z4.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371105" FileType="1048576" CompNumb="24" />
+      <File Name="Generated_Code/heap_useNewlib.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195144" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/croutine.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195122" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2019-06-10, 11:22:03" FileAge="1560176523828" FileType="45637" CompNumb="8" />
+      <File Name="SDK/platform/hal/src/osc/fsl_osc_hal.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371086" FileType="1048576" CompNumb="27" />
+      <File Name="SDK/platform/drivers/inc/fsl_spi_slave_driver.h" FileDate="2019-06-10, 13:28:49" FileAge="1560184129384" FileType="1048576" CompNumb="40" />
+      <File Name="SDK/platform/hal/inc/fsl_lpsci_hal.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371245" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/portTicks.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195162" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/devices/MKL16Z4/include/MKL16Z4_features.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371232" FileType="1048576" CompNumb="16" />
+      <File Name="SDK/platform/drivers/src/spi/fsl_spi_dma_shared_function.c" FileDate="1969-12-31, 20:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/hal/src/spi/fsl_spi_hal.c" FileDate="2019-06-10, 11:22:02" FileAge="1560176522331" FileType="1048576" CompNumb="41" />
+      <File Name="SDK/platform/hal/inc/fsl_dma_hal.h" FileDate="2019-06-10, 11:49:20" FileAge="1560178160636" FileType="1048576" CompNumb="46" />
+      <File Name="SDK/platform/drivers/inc/fsl_dma_driver.h" FileDate="2019-06-10, 11:49:20" FileAge="1560178160643" FileType="1048576" CompNumb="44" />
+      <File Name="Documentation/doxygen/RoutingReport_component.txt" FileDate="2019-06-10, 11:22:03" FileAge="1560176523846" FileType="45637" CompNumb="16" />
+      <File Name="Generated_Code/MCUC1.h" FileDate="2019-06-10, 11:22:03" FileAge="1560176523808" FileType="45637" CompNumb="19" />
+      <File Name="Generated_Code/hardware_init.c" FileDate="2019-06-10, 11:22:03" FileAge="1560176523832" FileType="45637" CompNumb="8" />
+      <File Name="SDK/platform/hal/src/sim/MKL16Z4/fsl_sim_hal_MKL16Z4.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371048" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/MCUC1.c" FileDate="2019-06-10, 11:22:03" FileAge="1560176523802" FileType="45637" CompNumb="19" />
+      <File Name="SDK/platform/hal/src/sim/MKL16Z4/fsl_sim_hal_MKL16Z4.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371046" FileType="1048576" CompNumb="0" />
+      <File Name="Generated_Code/FreeRTOS.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195125" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/tasks.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195191" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/mpu_prototypes.h" FileDate="2019-06-10, 11:16:35" FileAge="1560176195220" FileType="45637" CompNumb="38" />
+      <File Name="SDK/platform/devices/fsl_device_registers.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371216" FileType="1048576" CompNumb="16" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2019-06-10, 13:28:50" FileAge="1560184130951" FileType="45637" CompNumb="16" />
+      <File Name="SDK/platform/drivers/inc/fsl_spi_dma_shared_function.h" FileDate="1969-12-31, 20:59:59" FileAge="-1" FileType="1048576" />
+      <File Name="SDK/platform/hal/inc/fsl_gpio_hal.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371184" FileType="1048576" CompNumb="30" />
+      <File Name="Generated_Code/heap_5.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195142" FileType="45637" CompNumb="38" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2019-06-10, 13:28:50" FileAge="1560184130954" FileType="45637" CompNumb="16" />
+      <File Name="Documentation/minicurso-eeprom-driver.txt" FileDate="2019-06-10, 13:28:54" FileAge="1560184134058" FileType="3072" />
+      <File Name="SDK/platform/system/src/clock/fsl_clock_manager.c" FileDate="2019-06-10, 11:02:51" FileAge="1560175371098" FileType="1048576" CompNumb="24" />
+      <File Name="SDK/platform/drivers/src/spi/fsl_spi_slave_driver.c" FileDate="2019-06-10, 13:28:49" FileAge="1560184129377" FileType="1048576" CompNumb="40" />
+      <File Name="Generated_Code/heap_3.c" FileDate="2019-06-10, 11:16:35" FileAge="1560176195136" FileType="45637" CompNumb="38" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>12</CodeGenReference>
+</CodeGenerationInfo>
