@@ -17,7 +17,7 @@ namespace EEPROM { namespace S25FL1K {
 	{
 		using VCCPin = OutputPort<Port>;
 
-		enum Action
+		enum InstructionCode
 		{
 			PAGE_PROGRAM = 0x2,			// solicita a escrita
 			READ_DATA = 0x3,			// solicita a leitura
@@ -30,6 +30,7 @@ namespace EEPROM { namespace S25FL1K {
 		// tamanhos em bytes
 		static constexpr uint16_t PAGE_SIZE = 256;
 		static constexpr uint16_t SECTOR_SIZE = 4096;
+		static constexpr uint8_t WRITE_ENABLED_MASK = 0b10;
 
 	public:
 		Driver(SPICommunicationChannel& communication_channel, VCCPin vcc_pin);

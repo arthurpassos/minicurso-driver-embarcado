@@ -23,9 +23,22 @@ namespace EEPROM { namespace S25FL1K {
 
 	bool Driver::read(uint32_t address, uint8_t* buffer, uint16_t size) const
 	{
-		const uint32_t read_command[] =
+
+		// 1) crie um array (buffer) contendo
+		// o código de instrução e o endereço formatado
+		// de acordo com a especificação no manual
+
+		// 2) ative o chip/ slave (DOWN) pelo canal de comunicação
+
+		// 3) envie o comando pelo canal de comunicação
+
+		// 4) leia do canal de comunicação utilizando seu buffer
+
+		// 5) desative o chip/ slave (UP) pelo canal de comunicação
+
+		const uint8_t read_command[] =
 		{
-			Action::READ_DATA,
+			InstructionCode::READ_DATA,
 			address >> 16,
 			address >> 8,
 			address & 0xFF
@@ -43,9 +56,27 @@ namespace EEPROM { namespace S25FL1K {
 	{
 		enable_write();
 
+		// 1) crie um array (buffer) contendo
+		// o código de instrução e o endereço formatado
+		// de acordo com a especificação no manual
+
+		// 2) ative o chip/ slave (DOWN) pelo canal de comunicação
+
+		// 3) envie o comando pelo canal de comunicação
+
+		// 4) leia do canal de comunicação utilizando seu buffer
+
+		// 5) desative o chip/ slave (UP) pelo canal de comunicação
+
+		// 6)
+		// while(is_write_enabled())
+		// {
+		// 	Utils::delay(3);
+		//}
+
 		const uint8_t erase_sector_command[] =
 		{
-			Action::SECTOR_ERASE,
+			InstructionCode::SECTOR_ERASE,
 			address >> 16,
 			address >> 8,
 			address & 0xFF
@@ -107,9 +138,21 @@ namespace EEPROM { namespace S25FL1K {
 
 	void Driver::write(uint32_t address, const uint8_t* data, uint16_t size) const
 	{
+		// 1) crie um array (buffer) contendo
+		// o código de instrução e o endereço formatado
+		// de acordo com a especificação no manual
+
+		// 2) ative o chip/ slave (DOWN) pelo canal de comunicação
+
+		// 3) envie o comando pelo canal de comunicação
+
+		// 4) envie o dado pelo canal de comunicação
+
+		// 5) desative o chip/ slave (UP) pelo canal de comunicação
+
 		const uint8_t write_command[] =
 		{
-			Action::PAGE_PROGRAM,
+			InstructionCode::PAGE_PROGRAM,
 			address >> 16,
 			address >> 8,
 			address & 0xFF
@@ -125,7 +168,23 @@ namespace EEPROM { namespace S25FL1K {
 
 	void Driver::enable_write() const
 	{
-		const uint8_t write_enable_command = Action::WRITE_ENABLE;
+		const InstructionCode instruction_code; // = código correspondente no ENUM/ manual.
+
+		// 1) crie um comando contendo
+		// 	o código de instrução de acordo com a especificação no manual
+
+		// 2) ative o chip/ slave (DOWN) pelo canal de comunicação
+
+		// 3) envie o comando pelo canal de comunicação
+
+		// 4) desative o chip/ slave (UP) pelo canal de comunicação
+
+		// 5) while(!is_write_enabled())
+		// {
+		//	Utils::delay(3);
+		// }
+
+		const uint8_t write_enable_command = InstructionCode::WRITE_ENABLE;
 
 		communication_channel.CS_DOWN();
 
@@ -141,7 +200,7 @@ namespace EEPROM { namespace S25FL1K {
 
 	void Driver::disable_write() const
 	{
-		const uint8_t write_disable_command = Action::WRITE_DISABLE;
+		const uint8_t write_disable_command = InstructionCode::WRITE_DISABLE;
 
 		communication_channel.CS_DOWN();
 
@@ -160,13 +219,30 @@ namespace EEPROM { namespace S25FL1K {
 		{
 			Utils::delay(3);
 		}
-
-		disable_write();
 	}
 
 	bool Driver::is_write_enabled() const
 	{
-		const uint8_t query_write_mode_action = Action::QUERY_WRITE_MODE;
+		uint8_t response = 0xFF;
+		const InstructionCode instruction_code; // = código correspondente no ENUM/ manual.
+
+		// 1) crie um comando contendo
+		// 	o código de instrução de acordo com a especificação no manual
+
+		// 2) ative o chip/ slave (DOWN) pelo canal de comunicação
+
+		// 3) envie o comando pelo canal de comunicação
+
+		// 4) leia a resposta pelo canal de comunicação (apenas um byte de resposta)
+
+		// 5) desative o chip/ slave (UP) pelo canal de comunicação
+
+		// 6) verifique o nível (ligado ou desligado) do bit correspondente
+		// ao status de escrita retornado na resposta.
+
+		// 7) retorne o resultado
+
+		const uint8_t query_write_mode_action = InstructionCode::QUERY_WRITE_MODE;
 
 		uint8_t response = 0xFF;
 
@@ -178,7 +254,8 @@ namespace EEPROM { namespace S25FL1K {
 
 		communication_channel.CS_UP();
 
-		return response & 0b10;
+		return response & WRITE_ENABLED_MASK;
 	}
+
 
 }}
