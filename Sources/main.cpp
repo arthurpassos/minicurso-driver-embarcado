@@ -41,23 +41,13 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "EEPROM/S25FL1K/Driver.h"
+#include "Utils/Utils.h"
 
 void task(void* param)
 {
-//
-//	EEPROM::Manager eeprom_manager;
-//
-	uint8_t dt[] = "Arthur rs";
+	uint8_t data[] = "Arthurdadas rs";
 
-	uint8_t rx[sizeof(dt)] = {0x0};
-//
-//	eeprom_manager.turn_on();
-//
-//	eeprom_manager.erase_sector(EEPROM::SectionID::TESTE);
-//
-//	eeprom_manager.store(EEPROM::SectionID::TESTE, dt, sizeof(dt));
-//
-//	eeprom_manager.read(EEPROM::SectionID::TESTE, rx, sizeof(rx));
+	uint8_t read_buffer[sizeof(data)] = {0x0};
 
 	SPIInterface interface(spiEEPROM_IDX, spiEEPROM_MasterConfig0);
 
@@ -67,11 +57,11 @@ void task(void* param)
 
 	driver.turn_on();
 
-	driver.read(0, rx, sizeof(rx));
+	driver.read(0, read_buffer, sizeof(read_buffer));
 
-	driver.store(0, dt, sizeof(dt));
+	driver.erase_sector(0);
 
-	driver.read(0, rx, sizeof(rx));
+	driver.read(0, read_buffer, sizeof(read_buffer));
 
 	for(;;)
 	{

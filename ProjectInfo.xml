@@ -224,9 +224,12 @@
       <PathName>C:\Projetos\minicurso-driver-embarcado\Sources\Buffers\AbstractByteBuffer.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Sources\Buffers\DynamicByteBuffer.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Sources\Buffers\StaticByteBuffer.h</PathName>
+      <PathName>C:\Projetos\minicurso-driver-embarcado\Sources\EEPROM\AbstractDriver.h</PathName>
+      <PathName>C:\Projetos\minicurso-driver-embarcado\Sources\EEPROM\S25FL1K\Driver.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Sources\Events.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Sources\Interfaces\Interface.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Sources\Interfaces\Ports.h</PathName>
+      <PathName>C:\Projetos\minicurso-driver-embarcado\Sources\Interfaces\SPICommunicationChannel.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Sources\Interfaces\SPIInterface.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Sources\Utils\IPowerable.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Sources\Utils\Utils.h</PathName>

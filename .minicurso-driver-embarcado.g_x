@@ -231,7 +231,7 @@
       <File Name="Generated_Code/queue.c" FileDate="2019-06-15, 14:26:54" FileAge="1560619614211" FileType="45637" CompNumb="38" />
       <File Name="Generated_Code/UTIL1.h" FileDate="2019-06-15, 14:26:54" FileAge="1560619614496" FileType="45637" CompNumb="20" />
       <File Name="SDK/platform/hal/inc/fsl_rtc_hal.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371095" FileType="1048576" />
-      <File Name="ProjectInfo.xml" FileDate="2019-06-15, 14:26:56" FileAge="1560619616254" FileType="45637" />
+      <File Name="ProjectInfo.xml" FileDate="2019-06-16, 09:36:39" FileAge="1560688599628" FileType="45637" />
       <File Name="SDK/platform/CMSIS/Include/arm_common_tables.h" FileDate="2019-06-10, 11:02:51" FileAge="1560175371207" FileType="1048576" />
       <File Name="Generated_Code/UTIL1.c" FileDate="2019-06-15, 14:26:54" FileAge="1560619614482" FileType="45637" CompNumb="20" />
       <File Name="Generated_Code/pin_mux.h" FileDate="2019-06-15, 14:26:54" FileAge="1560619614583" FileType="45637" CompNumb="8" />
@@ -291,5 +291,5 @@
       <File Name="Generated_Code/portTicks.h" FileDate="2019-06-15, 14:26:54" FileAge="1560619614162" FileType="45637" CompNumb="38" />
     </GeneratedByPE>
   </GeneratedFilesList>
-  <CodeGenReference>2</CodeGenReference>
+  <CodeGenReference>3</CodeGenReference>
 </CodeGenerationInfo>

@@ -25,7 +25,7 @@ namespace EEPROM { namespace S25FL1K {
 	{
 		const uint32_t read_command[] =
 		{
-			Action::PAGE_PROGRAM,
+			Action::READ_DATA,
 			address >> 16,
 			address >> 8,
 			address & 0xFF
@@ -43,7 +43,7 @@ namespace EEPROM { namespace S25FL1K {
 	{
 		enable_write();
 
-		const uint32_t erase_sector_command[] =
+		const uint8_t erase_sector_command[] =
 		{
 			Action::SECTOR_ERASE,
 			address >> 16,
@@ -107,7 +107,7 @@ namespace EEPROM { namespace S25FL1K {
 
 	void Driver::write(uint32_t address, const uint8_t* data, uint16_t size) const
 	{
-		const uint32_t write_command[] =
+		const uint8_t write_command[] =
 		{
 			Action::PAGE_PROGRAM,
 			address >> 16,
@@ -160,6 +160,8 @@ namespace EEPROM { namespace S25FL1K {
 		{
 			Utils::delay(3);
 		}
+
+		disable_write();
 	}
 
 	bool Driver::is_write_enabled() const

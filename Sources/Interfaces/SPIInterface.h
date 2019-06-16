@@ -29,7 +29,7 @@ private:
     IDX idx;
     Config config;
 
-    static constexpr uint8_t DEFAULT_TIMEOUT = 100;
+    static constexpr uint8_t DEFAULT_TIMEOUT = 300;
 };
 
 #endif /* SOURCES_INTERFACES_SPIINTERFACE_H_ */
