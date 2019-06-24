@@ -25,6 +25,13 @@ Module "pin_mux"   (component PinSettings)
                 only if any pin of corresponding peripheral type is selected. Selected pins are either user selected pins or 
                 pins selected in pin items in components. Call this method code to un-route desired pins into GPIOA, GPIOB, 
                 GPIOC, GPIOD, GPIOE peripherals.
+   - pin_mux_init_llwu_pins -LLWU method configures registers according to settings  of routing and electrical features. This 
+                method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
+                selected pins or pins selected in pin items in components. Call this method code to route desired pins into 
+                LLWU peripheral.
+   - pin_mux_deinit_llwu_pins -LLWU method de-configures registers according to settings of routing. This method is enabled 
+                only if any pin of corresponding peripheral type is selected. Selected pins are either user selected pins or 
+                pins selected in pin items in components. Call this method code to un-route desired pins into LLWU peripheral.
    - pin_mux_init_rcm_pins -RCM method configures registers according to settings  of routing and electrical features. This 
                 method is enabled only if any pin of corresponding peripheral type is selected. Selected pins are either user 
                 selected pins or pins selected in pin items in components. Call this method code to route desired pins into RCM 
@@ -821,6 +828,13 @@ Module "dmaController1" (component fsl_dma)
    - dmaController1_DMA_DRV_ConfigTransfer -Configures a transfer for the DMA.
    - dmaController1_DMA_DRV_ConfigChanLink -Configures the channel link feature.
    - dmaController1_DMA_DRV_IRQhandler -DMA IRQ handler for both an interrupt and an error.
+
+Module "cop1"      (component fsl_cop)
+   - cop1_COP_DRV_Init -Initializes the COP.
+   - cop1_COP_DRV_Disable -Disables the COP Watchdog.
+   - cop1_COP_DRV_Refresh -Resets the COP timeout counter.
+   - cop1_COP_DRV_IsRunning -Gets the COP running status.
+   - cop1_COP_DRV_ResetSystem -Resets the system.
 
 Module "Cpu"       (component MKL16Z128LH4_4SDK)
    - Cpu_SystemInit -This method configures the oscillator (PLL) that is part of the microcontroller device. SystemInit is 

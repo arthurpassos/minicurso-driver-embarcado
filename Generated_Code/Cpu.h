@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.3.0
 **     Datasheet   : KL26P121M48SF4RM Rev. 3.2, October 2013
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2019-06-15, 14:26, # CodeGen: 0
+**     Date/Time   : 2019-06-24, 10:15, # CodeGen: 4
 **     Abstract    :
 **
 **     Settings    :
@@ -87,6 +87,8 @@
 #include "fsl_dmamux_hal.h"
 #include "fsl_dma_hal.h"
 #include "fsl_dma_driver.h"
+#include "fsl_cop_hal.h"
+#include "fsl_cop_driver.h"
 #include <assert.h>
 
 #ifdef __cplusplus

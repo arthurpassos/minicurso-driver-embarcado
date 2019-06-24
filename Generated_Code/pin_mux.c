@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2019-06-15, 14:26, # CodeGen: 0
+**     Date/Time   : 2019-06-24, 10:08, # CodeGen: 3
 **     Abstract    :
 **
 **     Settings    :
@@ -998,24 +998,23 @@ void init_gpio_pins(uint32_t instance)
       PORT_HAL_SetSlewRateMode(PORTB,18UL,kPortSlowSlewRate);
       break;
     case GPIOC_IDX:                     /* GPIOC_IDX */
+      /* Affects PORTC_PCR4 register */
+      PORT_HAL_SetSlewRateMode(PORTC,4UL,kPortFastSlewRate);
+      PORT_HAL_SetMuxMode(PORTC,4UL,kPortMuxAsGpio);
       /* Affects PORTC_PCR11 register */
       PORT_HAL_SetMuxMode(PORTC,11UL,kPortMuxAsGpio);
       PORT_HAL_SetSlewRateMode(PORTC,11UL,kPortSlowSlewRate);
       break;
     case GPIOD_IDX:                     /* GPIOD_IDX */
-      /* Affects PORTD_PCR7 register */
-      PORT_HAL_SetDriveStrengthMode(PORTD,7UL,kPortLowDriveStrength);  
-      PORT_HAL_SetMuxMode(PORTD,7UL,kPortMuxAsGpio);
-      PORT_HAL_SetSlewRateMode(PORTD,7UL,kPortSlowSlewRate);
+      /* Affects PORTD_PCR2 register */
+      PORT_HAL_SetMuxMode(PORTD,2UL,kPortMuxAsGpio);
+      PORT_HAL_SetSlewRateMode(PORTD,2UL,kPortSlowSlewRate);
       break;
     case GPIOE_IDX:                     /* GPIOE_IDX */
       /* Affects PORTE_PCR0 register */
       PORT_HAL_SetMuxMode(PORTE,0UL,kPortMuxAsGpio);
       PORT_HAL_SetPullMode(PORTE,0UL,kPortPullUp);
       PORT_HAL_SetPullCmd(PORTE,0UL,true);
-      /* Affects PORTE_PCR16 register */
-      PORT_HAL_SetSlewRateMode(PORTE,16UL,kPortFastSlewRate);
-      PORT_HAL_SetMuxMode(PORTE,16UL,kPortMuxAsGpio);
       /* Affects PORTE_PCR21 register */
       PORT_HAL_SetMuxMode(PORTE,21UL,kPortMuxAsGpio);
       PORT_HAL_SetSlewRateMode(PORTE,21UL,kPortSlowSlewRate);
@@ -1043,14 +1042,14 @@ void deinit_gpio_pins(uint32_t instance)
       PORT_HAL_SetMuxMode(PORTB,18UL,kPortPinDisabled);
       break;
     case GPIOC_IDX:                     /* GPIOC_IDX */
+      PORT_HAL_SetMuxMode(PORTC,4UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTC,11UL,kPortPinDisabled);
       break;
     case GPIOD_IDX:                     /* GPIOD_IDX */
-      PORT_HAL_SetMuxMode(PORTD,7UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTD,2UL,kPortPinDisabled);
       break;
     case GPIOE_IDX:                     /* GPIOE_IDX */
       PORT_HAL_SetMuxMode(PORTE,0UL,kPortPinDisabled);
-      PORT_HAL_SetMuxMode(PORTE,16UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTE,21UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTE,29UL,kPortPinDisabled);
       PORT_HAL_SetMuxMode(PORTE,30UL,kPortPinDisabled);
@@ -1058,6 +1057,29 @@ void deinit_gpio_pins(uint32_t instance)
     default:
       break;
   }
+}
+
+/*FUNCTION**********************************************************************
+*
+* Function Name : init_llwu_pins
+* Description   : LLWU method sets registers according routing settings.
+* Call this method code to route desired pins.
+*END**************************************************************************/
+void init_llwu_pins(uint32_t instance)
+{
+  /* Affects PORTC_PCR4 register */
+  PORT_HAL_SetSlewRateMode(PORTC,4UL,kPortFastSlewRate);
+  PORT_HAL_SetMuxMode(PORTC,4UL,kPortMuxAsGpio);
+}
+/*FUNCTION**********************************************************************
+*
+* Function Name : deinit_llwu_pins
+* Description   : LLWU method sets registers according routing settings.
+* Call this method code to disable routing of desired pins.
+*END**************************************************************************/
+void deinit_llwu_pins(uint32_t instance)
+{
+  PORT_HAL_SetMuxMode(PORTC,4UL,kPortPinDisabled);
 }
 
 /*FUNCTION**********************************************************************
@@ -1091,12 +1113,12 @@ void init_spi_pins(uint32_t instance)
 {
   switch(instance) {    
     case SPI0_IDX:                      /* SPI0_IDX */
-      /* Affects PORTE_PCR19 register */
-      PORT_HAL_SetMuxMode(PORTE,19UL,kPortMuxAlt2);
-      /* Affects PORTE_PCR18 register */
-      PORT_HAL_SetMuxMode(PORTE,18UL,kPortMuxAlt2);
-      /* Affects PORTE_PCR17 register */
-      PORT_HAL_SetMuxMode(PORTE,17UL,kPortMuxAlt2);
+      /* Affects PORTC_PCR6 register */
+      PORT_HAL_SetMuxMode(PORTC,6UL,kPortMuxAlt5);
+      /* Affects PORTC_PCR7 register */
+      PORT_HAL_SetMuxMode(PORTC,7UL,kPortMuxAlt5);
+      /* Affects PORTD_PCR1 register */
+      PORT_HAL_SetMuxMode(PORTD,1UL,kPortMuxAlt2);
       break;
     default:
       break;
@@ -1112,9 +1134,9 @@ void deinit_spi_pins(uint32_t instance)
 {
   switch(instance) {    
     case SPI0_IDX:                      /* SPI0_IDX */
-      PORT_HAL_SetMuxMode(PORTE,19UL,kPortPinDisabled);
-      PORT_HAL_SetMuxMode(PORTE,18UL,kPortPinDisabled);
-      PORT_HAL_SetMuxMode(PORTE,17UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTC,6UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTC,7UL,kPortPinDisabled);
+      PORT_HAL_SetMuxMode(PORTD,1UL,kPortPinDisabled);
       break;
     default:
       break;

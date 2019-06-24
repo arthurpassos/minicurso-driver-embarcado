@@ -8,7 +8,7 @@
 **     Repository  : KSDK 1.3.0
 **     Datasheet   : KL26P121M48SF4RM Rev. 3.2, October 2013
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2019-06-15, 14:26, # CodeGen: 0
+**     Date/Time   : 2019-06-24, 10:15, # CodeGen: 4
 **     Abstract    :
 **
 **     Settings    :
@@ -124,6 +124,10 @@ void Components_Init(void)
   /*! dmaController1 Auto initialization start */
   DMA_DRV_Init(&dmaController1_State);
   /*! dmaController1 Auto initialization end */
+  
+  /*! cop1 Auto initialization start */
+  COP_DRV_Init(cop1_IDX, &cop1_InitConfig0);
+  /*! cop1 Auto initialization end */
   
 }
 #endif /* CPU_COMPONENTS_INIT */

@@ -45,9 +45,9 @@
 
 void task(void* param)
 {
-	uint8_t data[] = "Arthurdadas rs";
+	uint8_t data[] = "Olá, mundo! Este é, possívelmente, o meu primeiro device driver embarcado!";
 
-	uint8_t rx[sizeof(data)] = {0x0};
+	uint8_t read_buffer[sizeof(data)] = {0x0};
 
 	SPIInterface interface(spiEEPROM_IDX, spiEEPROM_MasterConfig0);
 
@@ -57,15 +57,20 @@ void task(void* param)
 
 	driver.turn_on();
 
-	driver.read(0, rx, sizeof(rx));
+	driver.read(0, read_buffer, sizeof(read_buffer));
+
+	driver.store(0, data, sizeof(data));
+
+	driver.read(0, read_buffer, sizeof(read_buffer));
 
 	driver.erase_sector(0);
 
-	driver.read(0, rx, sizeof(rx));
+	driver.read(0, read_buffer, sizeof(read_buffer));
 
 	for(;;)
 	{
-		vTaskDelay(10000);
+		COP_DRV_Refresh(cop1_IDX);
+		vTaskDelay(1000);
 	}
 }
 

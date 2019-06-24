@@ -38,6 +38,7 @@
 #include "FRTOS1.h"
 #include "spiEEPROM.h"
 #include "dmaController1.h"
+#include "cop1.h"
 #include "MCUC1.h"
 #include "UTIL1.h"
 

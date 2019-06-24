@@ -57,10 +57,12 @@
       <Path>C:\Projetos\minicurso-driver-embarcado\Generated_Code\</Path>
       <Path>C:\Projetos\minicurso-driver-embarcado\SDK\platform\devices\MKL16Z4\startup\</Path>
       <Path>C:\Projetos\minicurso-driver-embarcado\SDK\platform\devices\</Path>
+      <Path>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\src\cop\</Path>
       <Path>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\src\dma\</Path>
       <Path>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\src\gpio\</Path>
       <Path>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\src\rtc\</Path>
       <Path>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\src\spi\</Path>
+      <Path>C:\Projetos\minicurso-driver-embarcado\SDK\platform\hal\src\cop\</Path>
       <Path>C:\Projetos\minicurso-driver-embarcado\SDK\platform\hal\src\dma\</Path>
       <Path>C:\Projetos\minicurso-driver-embarcado\SDK\platform\hal\src\dmamux\</Path>
       <Path>C:\Projetos\minicurso-driver-embarcado\SDK\platform\hal\src\gpio\</Path>
@@ -89,6 +91,7 @@
       <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\MCUC1.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\UTIL1.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\clockMan1.c</PathName>
+      <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\cop1.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\croutine.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\dmaController1.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\event_groups.c</PathName>
@@ -112,6 +115,8 @@
       <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\timers.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\devices\MKL16Z4\startup\system_MKL16Z4.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\devices\startup.c</PathName>
+      <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\src\cop\fsl_cop_common.c</PathName>
+      <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\src\cop\fsl_cop_driver.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\src\dma\fsl_dma_common.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\src\dma\fsl_dma_driver.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\src\gpio\fsl_gpio_common.c</PathName>
@@ -121,6 +126,7 @@
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\src\spi\fsl_spi_master_driver.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\src\spi\fsl_spi_shared_function.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\src\spi\fsl_spi_slave_driver.c</PathName>
+      <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\hal\src\cop\fsl_cop_hal.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\hal\src\dma\fsl_dma_hal.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\hal\src\dmamux\fsl_dmamux_hal.c</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\hal\src\gpio\fsl_gpio_hal.c</PathName>
@@ -158,6 +164,7 @@
       <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\UTIL1config.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\board.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\clockMan1.h</PathName>
+      <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\cop1.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\croutine.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\deprecated_definitions.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\Generated_Code\dmaController1.h</PathName>
@@ -194,12 +201,14 @@
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\devices\MKL16Z4\include\fsl_bitaccess.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\devices\fsl_device_registers.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\devices\startup.h</PathName>
+      <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\inc\fsl_cop_driver.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\inc\fsl_dma_driver.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\inc\fsl_dma_request.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\inc\fsl_gpio_driver.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\inc\fsl_spi_master_driver.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\inc\fsl_spi_shared_function.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\drivers\inc\fsl_spi_slave_driver.h</PathName>
+      <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\hal\inc\fsl_cop_hal.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\hal\inc\fsl_dma_hal.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\hal\inc\fsl_dmamux_hal.h</PathName>
       <PathName>C:\Projetos\minicurso-driver-embarcado\SDK\platform\hal\inc\fsl_gpio_hal.h</PathName>

@@ -24,7 +24,7 @@ namespace EEPROM { namespace S25FL1K {
 	bool Driver::read(uint32_t address, uint8_t* buffer, uint16_t size) const
 	{
 
-		// 1) crie um array (buffer) contendo
+		// 1) crie um buffer (vetor) contendo
 		// o código de instrução e o endereço formatado
 		// de acordo com a especificação no manual
 
@@ -56,7 +56,7 @@ namespace EEPROM { namespace S25FL1K {
 	{
 		enable_write();
 
-		// 1) crie um array (buffer) contendo
+		// 1) crie um buffer (vetor) contendo
 		// o código de instrução e o endereço formatado
 		// de acordo com a especificação no manual
 
@@ -64,11 +64,9 @@ namespace EEPROM { namespace S25FL1K {
 
 		// 3) envie o comando pelo canal de comunicação
 
-		// 4) leia do canal de comunicação utilizando seu buffer
+		// 4) desative o chip/ slave (UP) pelo canal de comunicação
 
-		// 5) desative o chip/ slave (UP) pelo canal de comunicação
-
-		// 6)
+		// 5)
 		// while(is_write_enabled())
 		// {
 		// 	Utils::delay(3);
@@ -138,7 +136,7 @@ namespace EEPROM { namespace S25FL1K {
 
 	void Driver::write(uint32_t address, const uint8_t* data, uint16_t size) const
 	{
-		// 1) crie um array (buffer) contendo
+		// 1) crie um buffer (vetor) contendo
 		// o código de instrução e o endereço formatado
 		// de acordo com a especificação no manual
 
@@ -168,7 +166,7 @@ namespace EEPROM { namespace S25FL1K {
 
 	void Driver::enable_write() const
 	{
-		const InstructionCode instruction_code; // = código correspondente no ENUM/ manual.
+//		const InstructionCode instruction_code; // = código correspondente no ENUM/ manual.
 
 		// 1) crie um comando contendo
 		// 	o código de instrução de acordo com a especificação no manual
@@ -223,8 +221,8 @@ namespace EEPROM { namespace S25FL1K {
 
 	bool Driver::is_write_enabled() const
 	{
-		uint8_t response = 0xFF;
-		const InstructionCode instruction_code; // = código correspondente no ENUM/ manual.
+//		uint8_t response = 0xFF;
+//		const InstructionCode instruction_code; // = código correspondente no ENUM/ manual.
 
 		// 1) crie um comando contendo
 		// 	o código de instrução de acordo com a especificação no manual

@@ -71,7 +71,7 @@
       </GenExtraFiles>
       <GenExtraFileSrcDir52>Repositories\lib\doxygen\</GenExtraFileSrcDir52>
       <XtraAge0>1322218331</XtraAge0>
-      <XtraAge1>1322218331</XtraAge1>
+      <XtraAge1>1322799392</XtraAge1>
       <XtraAge2>1322218331</XtraAge2>
       <XtraAge3>1322218331</XtraAge3>
       <XtraAge4>1321883737</XtraAge4>
@@ -583,6 +583,51 @@
         <NotCreatedByDefault>false</NotCreatedByDefault>
       </SynchronizedStaticFile>
       <SynchronizedStaticFile>
+        <SrcFileName>C:\Freescale\KSDK_1.3.0\platform\hal\src\cop\fsl_cop_hal.c</SrcFileName>
+        <OrigSrcFileHash>D12E870503408FFB7CFAACA7B77D0C30FF614BB1BB786B6ED0F39BA6846790825E0A278D6C6F075E5A754959AF3FB1E8EC1438B43B8DCA2ADA8B94B923136AD4</OrigSrcFileHash>
+        <ReviewedSrcFileHash>D12E870503408FFB7CFAACA7B77D0C30FF614BB1BB786B6ED0F39BA6846790825E0A278D6C6F075E5A754959AF3FB1E8EC1438B43B8DCA2ADA8B94B923136AD4</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\hal\src\cop\fsl_cop_hal.c</PrjFileName>
+        <PrjFileHash>D12E870503408FFB7CFAACA7B77D0C30FF614BB1BB786B6ED0F39BA6846790825E0A278D6C6F075E5A754959AF3FB1E8EC1438B43B8DCA2ADA8B94B923136AD4</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\Freescale\KSDK_1.3.0\platform\hal\inc\fsl_cop_hal.h</SrcFileName>
+        <OrigSrcFileHash>3BC075CEC1D28120E51E16A1EEAC501BC71627F44559221A5D66F8927D3C70B7631DD82BACF334064D7522D0A7D98834268390D667D1ACB45727B5CF48906883</OrigSrcFileHash>
+        <ReviewedSrcFileHash>3BC075CEC1D28120E51E16A1EEAC501BC71627F44559221A5D66F8927D3C70B7631DD82BACF334064D7522D0A7D98834268390D667D1ACB45727B5CF48906883</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\hal\inc\fsl_cop_hal.h</PrjFileName>
+        <PrjFileHash>3BC075CEC1D28120E51E16A1EEAC501BC71627F44559221A5D66F8927D3C70B7631DD82BACF334064D7522D0A7D98834268390D667D1ACB45727B5CF48906883</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\Freescale\KSDK_1.3.0\platform\drivers\src\cop\fsl_cop_common.c</SrcFileName>
+        <OrigSrcFileHash>1D1FAB3A848DFCD3A063EA4B5CD38B306D3D28A0937ABF9CF2A43B8379BE4F154ACA3B047314174A3B97E9720F05F53FDABB8BB6315A1021E248F04C2B8174C2</OrigSrcFileHash>
+        <ReviewedSrcFileHash>1D1FAB3A848DFCD3A063EA4B5CD38B306D3D28A0937ABF9CF2A43B8379BE4F154ACA3B047314174A3B97E9720F05F53FDABB8BB6315A1021E248F04C2B8174C2</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\drivers\src\cop\fsl_cop_common.c</PrjFileName>
+        <PrjFileHash>1D1FAB3A848DFCD3A063EA4B5CD38B306D3D28A0937ABF9CF2A43B8379BE4F154ACA3B047314174A3B97E9720F05F53FDABB8BB6315A1021E248F04C2B8174C2</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\Freescale\KSDK_1.3.0\platform\drivers\src\cop\fsl_cop_driver.c</SrcFileName>
+        <OrigSrcFileHash>910817374610D2A209C13CA53C6064866C54D4D2DFBE1DDB78CE9787808C01CF7E945A297A5A757D58C43FCE3365F1ECCA8A443F18358D153F0BDD0A45A57AFC</OrigSrcFileHash>
+        <ReviewedSrcFileHash>910817374610D2A209C13CA53C6064866C54D4D2DFBE1DDB78CE9787808C01CF7E945A297A5A757D58C43FCE3365F1ECCA8A443F18358D153F0BDD0A45A57AFC</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\drivers\src\cop\fsl_cop_driver.c</PrjFileName>
+        <PrjFileHash>910817374610D2A209C13CA53C6064866C54D4D2DFBE1DDB78CE9787808C01CF7E945A297A5A757D58C43FCE3365F1ECCA8A443F18358D153F0BDD0A45A57AFC</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
+        <SrcFileName>C:\Freescale\KSDK_1.3.0\platform\drivers\inc\fsl_cop_driver.h</SrcFileName>
+        <OrigSrcFileHash>F4938901ABB53AA3578451B619CAC4242EB1E0C6397D0622D818D8CC6D0044A5554904BA83AB65313A78E54C1D88A930522836A0A490065B92F7ECBEE884A4D6</OrigSrcFileHash>
+        <ReviewedSrcFileHash>F4938901ABB53AA3578451B619CAC4242EB1E0C6397D0622D818D8CC6D0044A5554904BA83AB65313A78E54C1D88A930522836A0A490065B92F7ECBEE884A4D6</ReviewedSrcFileHash>
+        <PrjFileName>SDK\platform\drivers\inc\fsl_cop_driver.h</PrjFileName>
+        <PrjFileHash>F4938901ABB53AA3578451B619CAC4242EB1E0C6397D0622D818D8CC6D0044A5554904BA83AB65313A78E54C1D88A930522836A0A490065B92F7ECBEE884A4D6</PrjFileHash>
+        <NoMoreGenerated>false</NoMoreGenerated>
+        <NotCreatedByDefault>false</NotCreatedByDefault>
+      </SynchronizedStaticFile>
+      <SynchronizedStaticFile>
         <SrcFileName>C:\Freescale\KSDK_1.3.0\platform\CMSIS\Include\core_cm0plus.h</SrcFileName>
         <OrigSrcFileHash>E7187F20FCC8E9E5DE71D63661F039C48759043687EB68DE27E7447172155D003B015F995BA5458055C30EDFA36ED7A0DBE48DEDD6ED59C5851C83D186181846</OrigSrcFileHash>
         <ReviewedSrcFileHash>E7187F20FCC8E9E5DE71D63661F039C48759043687EB68DE27E7447172155D003B015F995BA5458055C30EDFA36ED7A0DBE48DEDD6ED59C5851C83D186181846</ReviewedSrcFileHash>
@@ -835,8 +880,9 @@
         <Line>FRTOS1_vApplicationIdleHook</Line>
         <Line>FRTOS1_vApplicationMallocFailedHook</Line>
       </GenMethodsInEvents>
-      <GenAllModules lines_count="11">
+      <GenAllModules lines_count="12">
         <Line>clockMan1</Line>
+        <Line>cop1</Line>
         <Line>Cpu</Line>
         <Line>dmaController1</Line>
         <Line>Events</Line>
@@ -849,7 +895,7 @@
         <Line>UTIL1</Line>
       </GenAllModules>
       <GenExternModules lines_count="0" />
-      <GenBeanModules lines_count="9">
+      <GenBeanModules lines_count="10">
         <Line>pin_mux</Line>
         <Line>MCUC1</Line>
         <Line>UTIL1</Line>
@@ -859,11 +905,12 @@
         <Line>FRTOS1</Line>
         <Line>spiEEPROM</Line>
         <Line>dmaController1</Line>
+        <Line>cop1</Line>
       </GenBeanModules>
     </GenFiles>
     <SignalListFile />
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>11</ProjectModificationStamp>
+    <ProjectModificationStamp>13</ProjectModificationStamp>
   </Options>
   <CpuID_16>
     <Generated>true</Generated>
@@ -871,8 +918,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1322218330</HeaderAge>
-    <CodeAge>1322218330</CodeAge>
+    <HeaderAge>1322799625</HeaderAge>
+    <CodeAge>1322799625</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>2</GenNumMethods>
     <SystemInit>true</SystemInit>
@@ -925,8 +972,8 @@
     <GenComponentVersion>1.2.0</GenComponentVersion>
     <GenDriverVersion>1.4</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1322218331</HeaderAge>
-    <CodeAge>1322218331</CodeAge>
+    <HeaderAge>1322799392</HeaderAge>
+    <CodeAge>1322799392</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>41</GenNumMethods>
     <hardware_init>true</hardware_init>
@@ -944,8 +991,8 @@
     <deinit_i2c_pins>false</deinit_i2c_pins>
     <init_i2s_pins>false</init_i2s_pins>
     <deinit_i2s_pins>false</deinit_i2s_pins>
-    <init_llwu_pins>false</init_llwu_pins>
-    <deinit_llwu_pins>false</deinit_llwu_pins>
+    <init_llwu_pins>true</init_llwu_pins>
+    <deinit_llwu_pins>true</deinit_llwu_pins>
     <init_lptmr_pins>false</init_lptmr_pins>
     <deinit_lptmr_pins>false</deinit_lptmr_pins>
     <init_osc_pins>false</init_osc_pins>
@@ -979,15 +1026,15 @@
       <MethodPos0>Init</MethodPos0>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>966</LineBeg>
-      <LineEnd>1238</LineEnd>
+      <LineBeg>968</LineBeg>
+      <LineEnd>1240</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos1>Init</MethodPos1>
       <MethodType>method</MethodType>
       <ModuleType>Code</ModuleType>
       <LineBeg>959</LineBeg>
-      <LineEnd>1121</LineEnd>
+      <LineEnd>1143</LineEnd>
     </MethodPos>
     <GenExtraFilesCount>2</GenExtraFilesCount>
     <ExtraFile0>Generated_Code\board.h</ExtraFile0>
@@ -2712,7 +2759,7 @@
     <GenComponentVersion>1.3.0</GenComponentVersion>
     <GenDriverVersion>01.00</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
-    <HeaderAge>1322218331</HeaderAge>
+    <HeaderAge>1322799392</HeaderAge>
     <CodeAge>1322218331</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>12</GenNumMethods>
@@ -4394,6 +4441,57 @@
       <ExtraFile1>SDK\platform\hal\src\dma\fsl_dma_hal.c</ExtraFile1>
     </InhrCompID_46>
   </ComponentID_44>
+  <ComponentID_47>
+    <Generated>true</Generated>
+    <GenCompName>cop1</GenCompName>
+    <GenComponentVersion>1.3.0</GenComponentVersion>
+    <GenDriverVersion>01.00</GenDriverVersion>
+    <GenEventModule>Events</GenEventModule>
+    <HeaderAge>1322799625</HeaderAge>
+    <CodeAge>1322799625</CodeAge>
+    <AsemblAge>-1</AsemblAge>
+    <GenNumMethods>5</GenNumMethods>
+    <COP_DRV_Init>true</COP_DRV_Init>
+    <COP_DRV_Disable>true</COP_DRV_Disable>
+    <COP_DRV_Refresh>true</COP_DRV_Refresh>
+    <COP_DRV_IsRunning>true</COP_DRV_IsRunning>
+    <COP_DRV_ResetSystem>true</COP_DRV_ResetSystem>
+    <GenNumEvents>0</GenNumEvents>
+    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
+    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
+    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
+    <GenMethodPos>0</GenMethodPos>
+    <GenExtraFilesCount>3</GenExtraFilesCount>
+    <ExtraFile0>SDK\platform\drivers\inc\fsl_cop_driver.h</ExtraFile0>
+    <ExtraFile1>SDK\platform\drivers\src\cop\fsl_cop_driver.c</ExtraFile1>
+    <ExtraFile2>SDK\platform\drivers\src\cop\fsl_cop_common.c</ExtraFile2>
+    <InhrCompID_48>
+      <Generated>true</Generated>
+      <GenCompName>fsl_cop_hal1</GenCompName>
+      <GenComponentVersion>1.3.0</GenComponentVersion>
+      <GenDriverVersion>01.00</GenDriverVersion>
+      <GenEventModule />
+      <HeaderAge>-1</HeaderAge>
+      <CodeAge>-1</CodeAge>
+      <AsemblAge>-1</AsemblAge>
+      <GenNumMethods>7</GenNumMethods>
+      <COP_HAL_SetConfig>true</COP_HAL_SetConfig>
+      <COP_HAL_Enable>true</COP_HAL_Enable>
+      <COP_HAL_Disable>true</COP_HAL_Disable>
+      <COP_HAL_IsEnable>true</COP_HAL_IsEnable>
+      <COP_HAL_Refresh>true</COP_HAL_Refresh>
+      <COP_HAL_ResetSystem>true</COP_HAL_ResetSystem>
+      <COP_HAL_Init>true</COP_HAL_Init>
+      <GenNumEvents>0</GenNumEvents>
+      <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
+      <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
+      <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
+      <GenMethodPos>0</GenMethodPos>
+      <GenExtraFilesCount>2</GenExtraFilesCount>
+      <ExtraFile0>SDK\platform\hal\inc\fsl_cop_hal.h</ExtraFile0>
+      <ExtraFile1>SDK\platform\hal\src\cop\fsl_cop_hal.c</ExtraFile1>
+    </InhrCompID_48>
+  </ComponentID_47>
   <UsedSrcFiles>
     <SrcFile0>Drivers\Common\UtilityNumFloatToStr.Inc=1296400561</SrcFile0>
     <SrcFile1>Drivers\freeRTOS\Source\portable\MemMang\heap_4.c=1296400546</SrcFile1>
@@ -4514,213 +4612,218 @@
     <SrcFile116>Drivers\fsl_spi_hal.src=-1</SrcFile116>
     <SrcFile117>Drivers\Kinetis\fsl_port_hal.drv=-1</SrcFile117>
     <SrcFile118>Drivers\freeRTOS\Source\include\croutine.h=1296400548</SrcFile118>
-    <SrcFile119>Drivers\Common\FreeRTOSxSemaphoreCreateBinary.Inc=1296400540</SrcFile119>
-    <SrcFile120>Drivers\Common\UtilityScanHex8uNumberNoPrefix.Inc=1296400560</SrcFile120>
-    <SrcFile121>Drivers\Common\UtilityInit.Inc=1296400561</SrcFile121>
-    <SrcFile122>Drivers\fsl_mcg_hal.src=-1</SrcFile122>
-    <SrcFile123>Drivers\fsl_clock_manager.src=-1</SrcFile123>
-    <SrcFile124>Drivers\Common\CommonInitialization_NotRst.prg=1183486427</SrcFile124>
-    <SrcFile125>Drivers\Kinetis\fsl_clock_manager_code.drv=-1</SrcFile125>
-    <SrcFile126>Drivers\Common\FreeRTOSxTimerIsTimerActive.Inc=1296400540</SrcFile126>
-    <SrcFile127>Drivers\fsl_rtc_hal.src=-1</SrcFile127>
-    <SrcFile128>Drivers\Common\FreeRTOStaskEXIT_CRITICAL.Inc=1296400540</SrcFile128>
-    <SrcFile129>Drivers\Common\UtilityGetValue32LE.Inc=1296400560</SrcFile129>
-    <SrcFile130>Drivers\Common\GenReg32BitsInitInfo.prg=1183486427</SrcFile130>
-    <SrcFile131>Drivers\freeRTOS\Source\list.c=1296400545</SrcFile131>
-    <SrcFile132>Drivers\Common\FreeRTOSxTaskNotifyStateClear.Inc=1296400541</SrcFile132>
-    <SrcFile133>Drivers\Common\Utilitystrcmp.Inc=1296400560</SrcFile133>
-    <SrcFile134>Drivers\Common\FreeRTOSpcTimerGetTimerName.Inc=1296400540</SrcFile134>
-    <SrcFile135>Drivers\Common\FreeRTOSxQueueIsQueueEmptyFromISR.Inc=1296400548</SrcFile135>
-    <SrcFile136>Drivers\Common\FreeRTOSpcTaskGetTaskName.Inc=1296400545</SrcFile136>
-    <SrcFile137>Drivers\Common\FreeRTOSvApplicationIdleHook.Inc=1296400541</SrcFile137>
-    <SrcFile138>Drivers\Common\UtilityNum32uToStr.Inc=1296400561</SrcFile138>
-    <SrcFile139>Drivers\Common\FreeRTOSxSemaphoreCreateRecursiveMutex.Inc=1296400541</SrcFile139>
-    <SrcFile140>Drivers\Common\FreeRTOSxSemaphoreGive.Inc=1296400546</SrcFile140>
-    <SrcFile141>Drivers\Common\Header.c=1183486427</SrcFile141>
-    <SrcFile142>Drivers\Common\FreeRTOSxTaskNotifyAndQuery.Inc=1296400546</SrcFile142>
-    <SrcFile143>Drivers\Common\Header.h=1183486427</SrcFile143>
-    <SrcFile144>Drivers\Common\McuLibConfigAbstract.Inc=1296400545</SrcFile144>
-    <SrcFile145>Drivers\Kinetis\Static_Kinetis_MCG.prg=1194226774</SrcFile145>
-    <SrcFile146>Drivers\freeRTOS\Source\portable\GCC\ARM_CM4F\portTicks.h=1296400540</SrcFile146>
-    <SrcFile147>Drivers\Common\FreeRTOSDeinit.Inc=1296400540</SrcFile147>
-    <SrcFile148>Drivers\Common\UtilitystrCutTail.Inc=1296400561</SrcFile148>
-    <SrcFile149>Drivers\Common\FreeRTOSxQueueCreateStatic.Inc=1296400548</SrcFile149>
-    <SrcFile150>Drivers\Common\FreeRTOSxEventGroupSync.Inc=1296400545</SrcFile150>
-    <SrcFile151>Drivers\sw\RTOSAdaptor\Common_RTOSAdaptor.prg=1183482931</SrcFile151>
-    <SrcFile152>Drivers\Common\FreeRTOSxTimerGetTimerDaemonTaskHandle.Inc=1296400547</SrcFile152>
-    <SrcFile153>Drivers\freeRTOS\Source\include\portable.h=1296400545</SrcFile153>
-    <SrcFile154>Drivers\Common\FreeRTOSxTimerStop.Inc=1296400545</SrcFile154>
-    <SrcFile155>Drivers\Kinetis\system_KinetisK_h.prg=1194226773</SrcFile155>
-    <SrcFile156>Drivers\Common\FreeRTOSvTaskGetInfo.Inc=1296400540</SrcFile156>
-    <SrcFile157>Drivers\Common\FreeRTOSxEventGroupGetBitsFromISR.Inc=1296400544</SrcFile157>
-    <SrcFile158>Drivers\Common\UtilitySetValue16LE.Inc=1296400560</SrcFile158>
-    <SrcFile159>Drivers\Common\FreeRTOSulTaskNotifyTake.Inc=1296400544</SrcFile159>
-    <SrcFile160>Drivers\Common\Header.C=1183486427</SrcFile160>
-    <SrcFile161>Drivers\freeRTOS\Source\portable\GCC\ARM_CM4F\portasm.s=1296400541</SrcFile161>
-    <SrcFile162>Drivers\Common\UtilityNum32sToStrFormatted.Inc=1296400560</SrcFile162>
-    <SrcFile163>Drivers\Kinetis\fsl_interrupt_manager.drv=-1</SrcFile163>
-    <SrcFile164>Drivers\Common\KinetisComponents_Init.inc=1183486427</SrcFile164>
-    <SrcFile165>Drivers\Common\GeneralISR.inc=1183486427</SrcFile165>
-    <SrcFile166>Drivers\Common\FreeRTOSxQueueSendToFront.Inc=1296400541</SrcFile166>
-    <SrcFile167>Drivers\Common\UtilityWeekDay.Inc=1296400559</SrcFile167>
-    <SrcFile168>Drivers\Common\GeneralMethod.inc=1183486427</SrcFile168>
-    <SrcFile169>Drivers\sw\Utility.drv=1296400559</SrcFile169>
-    <SrcFile170>Drivers\Kinetis\StaticSdk_Kinetis.drv=1194226773</SrcFile170>
-    <SrcFile171>Drivers\Common\FreeRTOSxSemaphoreTakeFromISR.Inc=1296400540</SrcFile171>
-    <SrcFile172>Drivers\Common\HeaderCopyright.inc=1183486427</SrcFile172>
-    <SrcFile173>Drivers\Common\McuLibConfigInit.Inc=1296400546</SrcFile173>
-    <SrcFile174>Drivers\freeRTOS\Source\include\list.h=1296400539</SrcFile174>
-    <SrcFile175>Drivers\Common\UtilityScanDecimal32sNumber.Inc=1296400560</SrcFile175>
-    <SrcFile176>Drivers\PEx_Kinetis.src=1194226771</SrcFile176>
-    <SrcFile177>Drivers\Common\FreeRTOSpvPortMalloc.Inc=1296400548</SrcFile177>
-    <SrcFile178>Drivers\Common\FreeRTOSpvTaskGetThreadLocalStoragePointer.Inc=1296400544</SrcFile178>
-    <SrcFile179>Drivers\Common\UtilitystrcatNum32s.Inc=1296400562</SrcFile179>
-    <SrcFile180>Drivers\Common\PinSettingsAbstract.inc=-1</SrcFile180>
-    <SrcFile181>Drivers\Common\UtilitystrcatNum32sFormatted.Inc=1296400559</SrcFile181>
-    <SrcFile182>Drivers\Common\UtilitystrcatNumFloat.Inc=1296400560</SrcFile182>
-    <SrcFile183>Drivers\Kinetis\fsl_os_abstraction_code.drv=-1</SrcFile183>
-    <SrcFile184>Drivers\Common\FreeRTOStaskYIELD.Inc=1296400544</SrcFile184>
-    <SrcFile185>Drivers\Common\Utilitychcat.Inc=1296400559</SrcFile185>
-    <SrcFile186>Drivers\Common\FreeRTOSxSemaphoreCreateMutex.Inc=1296400546</SrcFile186>
-    <SrcFile187>Drivers\Kinetis\fsl_dma_code.drv=-1</SrcFile187>
-    <SrcFile188>Drivers\Common\UtilitystrcatNum32sDotValue100.Inc=1296400563</SrcFile188>
-    <SrcFile189>Drivers\Common\UtilityScanHex32uNumber.Inc=1296400561</SrcFile189>
-    <SrcFile190>Drivers\Common\Utilitymap.Inc=1296400560</SrcFile190>
-    <SrcFile191>Drivers\Common\GeneralParametersNone.inc=1183486427</SrcFile191>
-    <SrcFile192>Drivers\Kinetis\fsl_gpio_hal.drv=-1</SrcFile192>
-    <SrcFile193>Drivers\Common\FreeRTOSxQueuePeek.Inc=1296400545</SrcFile193>
-    <SrcFile194>Drivers\Common\UtilitystrcatNum8Hex.Inc=1296400562</SrcFile194>
-    <SrcFile195>Drivers\Common\McuLibConfigDeinit.Inc=1296400540</SrcFile195>
-    <SrcFile196>Drivers\Common\UtilityNum16uToStr.Inc=1296400563</SrcFile196>
-    <SrcFile197>Drivers\Common\GeneralInternalGlobal.inc=1183486427</SrcFile197>
-    <SrcFile198>Drivers\Common\UtilityNum16sToStrFormatted.Inc=1296400561</SrcFile198>
-    <SrcFile199>Drivers\Common\FreeRTOStaskENABLE_INTERRUPTS.Inc=1296400540</SrcFile199>
-    <SrcFile200>Drivers\Common\GeneralInternalDescription.prg=1183486427</SrcFile200>
-    <SrcFile201>Drivers\freeRTOS\Source\include\task.h=1296400546</SrcFile201>
-    <SrcFile202>Drivers\Common\GeneralParameters.inc=1183486427</SrcFile202>
-    <SrcFile203>Drivers\freeRTOS\Source\include\mpu_wrappers.h=1296400539</SrcFile203>
-    <SrcFile204>Drivers\Common\FreeRTOSAppGetRuntimeCounterValueFromISR.Inc=1296400541</SrcFile204>
-    <SrcFile205>Drivers\Common\FreeRTOSxQueueSendToBackFromISR.Inc=1296400544</SrcFile205>
-    <SrcFile206>Drivers\sw\RTOSAdaptor\Default_RTOSAdaptor.prg=1183482931</SrcFile206>
-    <SrcFile207>Drivers\Kinetis\PinSettings_MKL16Z128LH4_4SDK.prg=-1</SrcFile207>
-    <SrcFile208>Drivers\Common\FreeRTOSxTaskGetIdleTaskHandle.Inc=1296400541</SrcFile208>
-    <SrcFile209>Drivers\Common\FreeRTOSvSemaphoreDelete.Inc=1296400545</SrcFile209>
-    <SrcFile210>Drivers\sw\CommonSupport.prg=1296400563</SrcFile210>
-    <SrcFile211>Drivers\freeRTOS\Source\portable\MemMang\heap_useNewlib.txt=1296400540</SrcFile211>
-    <SrcFile212>Drivers\Common\Utilitystrtailcmp.Inc=1296400560</SrcFile212>
-    <SrcFile213>Drivers\Kinetis\fsl_gpio.drv=-1</SrcFile213>
-    <SrcFile214>Drivers\Common\FreeRTOSxQueueSendToBack.Inc=1296400541</SrcFile214>
-    <SrcFile215>Drivers\Common\FreeRTOSpcTaskGetName.Inc=1296400544</SrcFile215>
-    <SrcFile216>Drivers\Common\FreeRTOSvTaskSuspend.Inc=1296400548</SrcFile216>
-    <SrcFile217>Drivers\Common\FreeRTOSxQueueReceive.Inc=1296400540</SrcFile217>
-    <SrcFile218>Drivers\freeRTOS\Source\include\FreeRTOSConfig.h=1296400539</SrcFile218>
-    <SrcFile219>Drivers\Kinetis\fsl_spi_hal.drv=-1</SrcFile219>
-    <SrcFile220>Drivers\Common\InitRegBlock.prg=1183486427</SrcFile220>
-    <SrcFile221>Drivers\fsl_gpio_hal.src=-1</SrcFile221>
-    <SrcFile222>Drivers\Common\EBGNSupport\StringLib.prg=1183486427</SrcFile222>
-    <SrcFile223>Drivers\Common\GeneralDamage.inc=1183486427</SrcFile223>
-    <SrcFile224>Drivers\Common\FreeRTOSxSemaphoreGiveRecursive.Inc=1296400541</SrcFile224>
-    <SrcFile225>Drivers\freeRTOS_Files.prg=1296400546</SrcFile225>
-    <SrcFile226>Drivers\Common\FreeRTOSxQueueSendToFrontFromISR.Inc=1296400540</SrcFile226>
-    <SrcFile227>Drivers\Common\UtilitystrcatNum32uFormatted.Inc=1296400562</SrcFile227>
-    <SrcFile228>Drivers\Common\FreeRTOSuxTaskGetStackHighWaterMark.Inc=1296400546</SrcFile228>
-    <SrcFile229>Drivers\Common\FreeRTOSxSemaphoreCreateBinaryStatic.Inc=1296400547</SrcFile229>
-    <SrcFile230>Drivers\Common\FreeRTOSxTaskNotifyAndQueryFromISR.Inc=1296400540</SrcFile230>
-    <SrcFile231>Drivers\Common\FreeRTOSvQueueUnregisterQueue.Inc=1296400544</SrcFile231>
-    <SrcFile232>Drivers\Kinetis\fsl_dma.drv=-1</SrcFile232>
-    <SrcFile233>Drivers\Kinetis\HAL_Port_Bridge.prg=1194226774</SrcFile233>
-    <SrcFile234>Drivers\freeRTOS\Source\include\deprecated_definitions.h=1296400540</SrcFile234>
-    <SrcFile235>Drivers\fsl_sim_hal.src=-1</SrcFile235>
-    <SrcFile236>Drivers\Utility.src=1296400561</SrcFile236>
-    <SrcFile237>Drivers\Common\FreeRTOSxTimerStart.Inc=1296400547</SrcFile237>
-    <SrcFile238>Drivers\Kinetis\fsl_sim_hal.drv=-1</SrcFile238>
-    <SrcFile239>Drivers\freeRTOS\Source\portable\MemMang\heap_useNewlib.c=1296400546</SrcFile239>
-    <SrcFile240>Drivers\Common\UtilityScanSeparatedNumbers.Inc=1296400563</SrcFile240>
-    <SrcFile241>lib\doxygen\pex.doxyfile=1183482798</SrcFile241>
-    <SrcFile242>Drivers\freeRTOS\Source\event_groups.c=1296400541</SrcFile242>
-    <SrcFile243>Drivers\Common\UtilityScanHex8uNumber.Inc=1296400559</SrcFile243>
-    <SrcFile244>Drivers\Common\FreeRTOSAbstract.Inc=1296400545</SrcFile244>
-    <SrcFile245>Drivers\Common\FreeRTOSxSemaphoreTake.Inc=1296400547</SrcFile245>
-    <SrcFile246>Drivers\PinSettings.src=-1</SrcFile246>
-    <SrcFile247>Drivers\McuLibConfig.src=1296400545</SrcFile247>
-    <SrcFile248>Drivers\freeRTOS\Source\portable\MemMang\heap_1.c=1296400546</SrcFile248>
-    <SrcFile249>Drivers\Common\GeneralEvent.inc=1183486427</SrcFile249>
-    <SrcFile250>Drivers\Common\FreeRTOSxEventGroupClearBitsFromISR.Inc=1296400546</SrcFile250>
-    <SrcFile251>Drivers\Common\UtilitystrFind.Inc=1296400561</SrcFile251>
-    <SrcFile252>Drivers\Common\UtilitystrcatNum32Hex.Inc=1296400561</SrcFile252>
-    <SrcFile253>Drivers\Common\FreeRTOSxTaskGetSchedulerState.Inc=1296400540</SrcFile253>
-    <SrcFile254>Drivers\Common\FreeRTOStaskENTER_CRITICAL.Inc=1296400540</SrcFile254>
-    <SrcFile255>Drivers\Common\FreeRTOSvTaskResume.Inc=1296400547</SrcFile255>
-    <SrcFile256>Drivers\Common\UtilityNum32sToStr.Inc=1296400560</SrcFile256>
-    <SrcFile257>Drivers\freeRTOS\Source\include\freertos_tasks_c_additions.h=1296400544</SrcFile257>
-    <SrcFile258>Drivers\Common\UtilityReadEscapedName.Inc=1296400563</SrcFile258>
-    <SrcFile259>Drivers\freeRTOS\Source\timers.c=1296400544</SrcFile259>
-    <SrcFile260>Drivers\Common\FreeRTOSvTaskStartScheduler.Inc=1296400547</SrcFile260>
-    <SrcFile261>Drivers\Common\FreeRTOSxTaskNotifyGive.Inc=1296400544</SrcFile261>
-    <SrcFile262>Drivers\Common\DoxyGenCpuDoc.prg=1183486427</SrcFile262>
-    <SrcFile263>Drivers\Common\Static_SetConst.prg=1183486427</SrcFile263>
-    <SrcFile264>Drivers\Common\Utilityconstrain.Inc=1296400563</SrcFile264>
-    <SrcFile265>Drivers\Common\FreeRTOSxTaskGetHandle.Inc=1296400541</SrcFile265>
-    <SrcFile266>Drivers\Common\WriteBlock_NotRst.prg=1194226775</SrcFile266>
-    <SrcFile267>Drivers\Common\FreeRTOSvApplicationStackOverflowHook.Inc=1296400546</SrcFile267>
-    <SrcFile268>Drivers\Common\FreeRTOSxEventGroupGetBits.Inc=1296400541</SrcFile268>
-    <SrcFile269>Drivers\Common\Header.doxy=1183484379</SrcFile269>
-    <SrcFile270>Drivers\freeRTOS\License\license.txt=1296400546</SrcFile270>
-    <SrcFile271>Drivers\freeRTOS\Source\stream_buffer.c=1296400541</SrcFile271>
-    <SrcFile272>Drivers\Common\FreeRTOSxQueueOverwriteFromISR.Inc=1296400548</SrcFile272>
-    <SrcFile273>Drivers\Common\ToolChain_Settings.prg=1183486427</SrcFile273>
-    <SrcFile274>Drivers\Common\UtilityScanDecimal16uNumber.Inc=1296400560</SrcFile274>
-    <SrcFile275>Drivers\Kinetis\KinetisSdk_Linker_V1.prg=1194226773</SrcFile275>
-    <SrcFile276>Drivers\Common\FreeRTOSxPortGetFreeHeapSize.Inc=1296400544</SrcFile276>
-    <SrcFile277>Drivers\Common\UtilityScanTime.Inc=1296400563</SrcFile277>
-    <SrcFile278>Drivers\freeRTOS\Source\include\stream_buffer.h=1296400544</SrcFile278>
-    <SrcFile279>Drivers\Common\InitReg32Block.prg=1183486427</SrcFile279>
-    <SrcFile280>Drivers\Common\UtilityScanDecimal16sNumber.Inc=1296400561</SrcFile280>
-    <SrcFile281>Drivers\Common\FreeRTOSxEventGroupClearBits.Inc=1296400548</SrcFile281>
-    <SrcFile282>Drivers\Common\UtilitystrcatNum32u.Inc=1296400559</SrcFile282>
-    <SrcFile283>Drivers\Common\FreeRTOSvQueueAddToRegistry.Inc=1296400546</SrcFile283>
-    <SrcFile284>Drivers\Common\FreeRTOSuxQueueMessagesWaitingfromISR.Inc=1296400541</SrcFile284>
-    <SrcFile285>Drivers\Common\FreeRTOSxTimerDelete.Inc=1296400540</SrcFile285>
-    <SrcFile286>Drivers\Common\FreeRTOSxQueueReset.Inc=1296400546</SrcFile286>
-    <SrcFile287>Drivers\Common\FreeRTOSInit.Inc=1296400548</SrcFile287>
-    <SrcFile288>Drivers\Common\KinetisAbstract.inc=1183486427</SrcFile288>
-    <SrcFile289>Drivers\Kinetis\fsl_dmamux_hal.drv=-1</SrcFile289>
-    <SrcFile290>Drivers\Common\UtilitystrcatPad.Inc=1296400563</SrcFile290>
-    <SrcFile291>Drivers\Common\FreeRTOSxTimerPendFunctionCallFromISR.Inc=1296400540</SrcFile291>
-    <SrcFile292>Drivers\Common\FreeRTOSxTaskGetCurrentTaskHandle.Inc=1296400540</SrcFile292>
-    <SrcFile293>Drivers\Common\UtilitystrcatNum16uFormatted.Inc=1296400559</SrcFile293>
-    <SrcFile294>Drivers\Common\UtilitySettings.Inc=1296400561</SrcFile294>
-    <SrcFile295>Drivers\Common\FreeRTOSSettings.Inc=1296400544</SrcFile295>
-    <SrcFile296>Drivers\freeRTOS\Source\include\event_groups.h=1296400544</SrcFile296>
-    <SrcFile297>Drivers\Kinetis\fsl_spi.drv=-1</SrcFile297>
-    <SrcFile298>Drivers\Common\FreeRTOSxTimerPendFunctionCall.Inc=1296400547</SrcFile298>
-    <SrcFile299>Drivers\Common\UtilityScanDecimal8sNumber.Inc=1296400562</SrcFile299>
-    <SrcFile300>Drivers\freeRTOS\Source\tasks.c=1296400546</SrcFile300>
-    <SrcFile301>Drivers\Common\FreeRTOSxEventGroupSetBits.Inc=1296400539</SrcFile301>
-    <SrcFile302>Drivers\fsl_interrupt_manager.src=-1</SrcFile302>
-    <SrcFile303>Drivers\freeRTOS\gdbBacktraceDebug\readme_gdbBacktraceDebug.txt=1296400547</SrcFile303>
-    <SrcFile304>Drivers\Common\FreeRTOSxTaskNotify.Inc=1296400548</SrcFile304>
-    <SrcFile305>Drivers\Common\FreeRTOSuxTaskGetNumberOfTasks.Inc=1296400548</SrcFile305>
-    <SrcFile306>Drivers\Common\FreeRTOSxTimerChangePeriodFromISR.Inc=1296400546</SrcFile306>
-    <SrcFile307>Drivers\Common\Doxy_CollectRegInitInfo.prg=1183486427</SrcFile307>
-    <SrcFile308>Drivers\fsl_osc_hal.src=-1</SrcFile308>
-    <SrcFile309>Drivers\Common\FreeRTOSxEventGroupCreate.Inc=1296400541</SrcFile309>
-    <SrcFile310>Drivers\Common\UtilityNum8uToStr.Inc=1296400563</SrcFile310>
-    <SrcFile311>Drivers\freeRTOS\Source\include\FreeRTOS.h=1296400546</SrcFile311>
-    <SrcFile312>Drivers\Common\FreeRTOSuxTaskPriorityGet.Inc=1296400547</SrcFile312>
-    <SrcFile313>Drivers\Common\FreeRTOSxTaskResumeAll.Inc=1296400541</SrcFile313>
-    <SrcFile314>Drivers\Common\UtilityGetValue24LE.Inc=1296400558</SrcFile314>
-    <SrcFile315>Drivers\Common\UtilityNum16uToStrFormatted.Inc=1296400560</SrcFile315>
-    <SrcFile316>Drivers\Common\FreeRTOSxSemaphoreGetMutexHolder.Inc=1296400545</SrcFile316>
-    <SrcFile317>Drivers\Common\Utilitystrlen.Inc=1296400559</SrcFile317>
-    <SrcFile318>Drivers\Common\UtilityNum16sToStr.Inc=1296400563</SrcFile318>
-    <SrcFile319>Drivers\Common\GeneralReturnNothing.inc=1183486427</SrcFile319>
-    <SrcFile320>Drivers\Common\FreeRTOSvPortFree.Inc=1296400545</SrcFile320>
-    <SrcFile321>Drivers\Common\UtilityScanDecimal8uNumber.Inc=1296400561</SrcFile321>
-    <SrcFile322>Drivers\Common\FreeRTOSxSemaphoreCreateMutexStatic.Inc=1296400546</SrcFile322>
-    <SrcFile323>Drivers\Common\FreeRTOSxTaskNotifyFromISR.Inc=1296400547</SrcFile323>
-    <SrcFile324>Drivers\freeRTOS\Source\portable\MemMang\heap_5.c=1296400545</SrcFile324>
-    <SrcFile325>Drivers\freeRTOS\Source\portable\GCC\ARM_CM4F\port.c=1296400544</SrcFile325>
+    <SrcFile119>Drivers\fsl_cop.src=-1</SrcFile119>
+    <SrcFile120>Drivers\Common\FreeRTOSxSemaphoreCreateBinary.Inc=1296400540</SrcFile120>
+    <SrcFile121>Drivers\Common\UtilityScanHex8uNumberNoPrefix.Inc=1296400560</SrcFile121>
+    <SrcFile122>Drivers\Kinetis\fsl_cop_code.drv=-1</SrcFile122>
+    <SrcFile123>Drivers\Common\UtilityInit.Inc=1296400561</SrcFile123>
+    <SrcFile124>Drivers\fsl_mcg_hal.src=-1</SrcFile124>
+    <SrcFile125>Drivers\fsl_clock_manager.src=-1</SrcFile125>
+    <SrcFile126>Drivers\Common\CommonInitialization_NotRst.prg=1183486427</SrcFile126>
+    <SrcFile127>Drivers\Kinetis\fsl_clock_manager_code.drv=-1</SrcFile127>
+    <SrcFile128>Drivers\Common\FreeRTOSxTimerIsTimerActive.Inc=1296400540</SrcFile128>
+    <SrcFile129>Drivers\fsl_rtc_hal.src=-1</SrcFile129>
+    <SrcFile130>Drivers\Common\FreeRTOStaskEXIT_CRITICAL.Inc=1296400540</SrcFile130>
+    <SrcFile131>Drivers\Common\UtilityGetValue32LE.Inc=1296400560</SrcFile131>
+    <SrcFile132>Drivers\Common\GenReg32BitsInitInfo.prg=1183486427</SrcFile132>
+    <SrcFile133>Drivers\freeRTOS\Source\list.c=1296400545</SrcFile133>
+    <SrcFile134>Drivers\Common\FreeRTOSxTaskNotifyStateClear.Inc=1296400541</SrcFile134>
+    <SrcFile135>Drivers\Common\Utilitystrcmp.Inc=1296400560</SrcFile135>
+    <SrcFile136>Drivers\Common\FreeRTOSpcTimerGetTimerName.Inc=1296400540</SrcFile136>
+    <SrcFile137>Drivers\Common\FreeRTOSxQueueIsQueueEmptyFromISR.Inc=1296400548</SrcFile137>
+    <SrcFile138>Drivers\Common\FreeRTOSpcTaskGetTaskName.Inc=1296400545</SrcFile138>
+    <SrcFile139>Drivers\Common\FreeRTOSvApplicationIdleHook.Inc=1296400541</SrcFile139>
+    <SrcFile140>Drivers\Common\UtilityNum32uToStr.Inc=1296400561</SrcFile140>
+    <SrcFile141>Drivers\Common\FreeRTOSxSemaphoreCreateRecursiveMutex.Inc=1296400541</SrcFile141>
+    <SrcFile142>Drivers\Common\FreeRTOSxSemaphoreGive.Inc=1296400546</SrcFile142>
+    <SrcFile143>Drivers\Common\Header.c=1183486427</SrcFile143>
+    <SrcFile144>Drivers\Common\FreeRTOSxTaskNotifyAndQuery.Inc=1296400546</SrcFile144>
+    <SrcFile145>Drivers\Common\Header.h=1183486427</SrcFile145>
+    <SrcFile146>Drivers\Common\McuLibConfigAbstract.Inc=1296400545</SrcFile146>
+    <SrcFile147>Drivers\Kinetis\Static_Kinetis_MCG.prg=1194226774</SrcFile147>
+    <SrcFile148>Drivers\freeRTOS\Source\portable\GCC\ARM_CM4F\portTicks.h=1296400540</SrcFile148>
+    <SrcFile149>Drivers\Common\FreeRTOSDeinit.Inc=1296400540</SrcFile149>
+    <SrcFile150>Drivers\Common\UtilitystrCutTail.Inc=1296400561</SrcFile150>
+    <SrcFile151>Drivers\Common\FreeRTOSxQueueCreateStatic.Inc=1296400548</SrcFile151>
+    <SrcFile152>Drivers\Common\FreeRTOSxEventGroupSync.Inc=1296400545</SrcFile152>
+    <SrcFile153>Drivers\sw\RTOSAdaptor\Common_RTOSAdaptor.prg=1183482931</SrcFile153>
+    <SrcFile154>Drivers\Common\FreeRTOSxTimerGetTimerDaemonTaskHandle.Inc=1296400547</SrcFile154>
+    <SrcFile155>Drivers\freeRTOS\Source\include\portable.h=1296400545</SrcFile155>
+    <SrcFile156>Drivers\Common\FreeRTOSxTimerStop.Inc=1296400545</SrcFile156>
+    <SrcFile157>Drivers\Kinetis\system_KinetisK_h.prg=1194226773</SrcFile157>
+    <SrcFile158>Drivers\Common\FreeRTOSvTaskGetInfo.Inc=1296400540</SrcFile158>
+    <SrcFile159>Drivers\Common\FreeRTOSxEventGroupGetBitsFromISR.Inc=1296400544</SrcFile159>
+    <SrcFile160>Drivers\Common\UtilitySetValue16LE.Inc=1296400560</SrcFile160>
+    <SrcFile161>Drivers\Common\FreeRTOSulTaskNotifyTake.Inc=1296400544</SrcFile161>
+    <SrcFile162>Drivers\Common\Header.C=1183486427</SrcFile162>
+    <SrcFile163>Drivers\freeRTOS\Source\portable\GCC\ARM_CM4F\portasm.s=1296400541</SrcFile163>
+    <SrcFile164>Drivers\Common\UtilityNum32sToStrFormatted.Inc=1296400560</SrcFile164>
+    <SrcFile165>Drivers\Kinetis\fsl_interrupt_manager.drv=-1</SrcFile165>
+    <SrcFile166>Drivers\Common\KinetisComponents_Init.inc=1183486427</SrcFile166>
+    <SrcFile167>Drivers\Common\GeneralISR.inc=1183486427</SrcFile167>
+    <SrcFile168>Drivers\Common\FreeRTOSxQueueSendToFront.Inc=1296400541</SrcFile168>
+    <SrcFile169>Drivers\Common\UtilityWeekDay.Inc=1296400559</SrcFile169>
+    <SrcFile170>Drivers\Common\GeneralMethod.inc=1183486427</SrcFile170>
+    <SrcFile171>Drivers\sw\Utility.drv=1296400559</SrcFile171>
+    <SrcFile172>Drivers\Kinetis\StaticSdk_Kinetis.drv=1194226773</SrcFile172>
+    <SrcFile173>Drivers\Common\FreeRTOSxSemaphoreTakeFromISR.Inc=1296400540</SrcFile173>
+    <SrcFile174>Drivers\Common\HeaderCopyright.inc=1183486427</SrcFile174>
+    <SrcFile175>Drivers\Common\McuLibConfigInit.Inc=1296400546</SrcFile175>
+    <SrcFile176>Drivers\freeRTOS\Source\include\list.h=1296400539</SrcFile176>
+    <SrcFile177>Drivers\Common\UtilityScanDecimal32sNumber.Inc=1296400560</SrcFile177>
+    <SrcFile178>Drivers\PEx_Kinetis.src=1194226771</SrcFile178>
+    <SrcFile179>Drivers\Common\FreeRTOSpvPortMalloc.Inc=1296400548</SrcFile179>
+    <SrcFile180>Drivers\Common\FreeRTOSpvTaskGetThreadLocalStoragePointer.Inc=1296400544</SrcFile180>
+    <SrcFile181>Drivers\Common\UtilitystrcatNum32s.Inc=1296400562</SrcFile181>
+    <SrcFile182>Drivers\Common\PinSettingsAbstract.inc=-1</SrcFile182>
+    <SrcFile183>Drivers\Common\UtilitystrcatNum32sFormatted.Inc=1296400559</SrcFile183>
+    <SrcFile184>Drivers\Common\UtilitystrcatNumFloat.Inc=1296400560</SrcFile184>
+    <SrcFile185>Drivers\Kinetis\fsl_os_abstraction_code.drv=-1</SrcFile185>
+    <SrcFile186>Drivers\Common\FreeRTOStaskYIELD.Inc=1296400544</SrcFile186>
+    <SrcFile187>Drivers\Common\Utilitychcat.Inc=1296400559</SrcFile187>
+    <SrcFile188>Drivers\Common\FreeRTOSxSemaphoreCreateMutex.Inc=1296400546</SrcFile188>
+    <SrcFile189>Drivers\Kinetis\fsl_dma_code.drv=-1</SrcFile189>
+    <SrcFile190>Drivers\Common\UtilitystrcatNum32sDotValue100.Inc=1296400563</SrcFile190>
+    <SrcFile191>Drivers\Common\UtilityScanHex32uNumber.Inc=1296400561</SrcFile191>
+    <SrcFile192>Drivers\Common\Utilitymap.Inc=1296400560</SrcFile192>
+    <SrcFile193>Drivers\Common\GeneralParametersNone.inc=1183486427</SrcFile193>
+    <SrcFile194>Drivers\Kinetis\fsl_gpio_hal.drv=-1</SrcFile194>
+    <SrcFile195>Drivers\Common\FreeRTOSxQueuePeek.Inc=1296400545</SrcFile195>
+    <SrcFile196>Drivers\Common\UtilitystrcatNum8Hex.Inc=1296400562</SrcFile196>
+    <SrcFile197>Drivers\Common\McuLibConfigDeinit.Inc=1296400540</SrcFile197>
+    <SrcFile198>Drivers\Common\UtilityNum16uToStr.Inc=1296400563</SrcFile198>
+    <SrcFile199>Drivers\Common\GeneralInternalGlobal.inc=1183486427</SrcFile199>
+    <SrcFile200>Drivers\Common\UtilityNum16sToStrFormatted.Inc=1296400561</SrcFile200>
+    <SrcFile201>Drivers\Common\FreeRTOStaskENABLE_INTERRUPTS.Inc=1296400540</SrcFile201>
+    <SrcFile202>Drivers\Common\GeneralInternalDescription.prg=1183486427</SrcFile202>
+    <SrcFile203>Drivers\freeRTOS\Source\include\task.h=1296400546</SrcFile203>
+    <SrcFile204>Drivers\Common\GeneralParameters.inc=1183486427</SrcFile204>
+    <SrcFile205>Drivers\freeRTOS\Source\include\mpu_wrappers.h=1296400539</SrcFile205>
+    <SrcFile206>Drivers\Common\FreeRTOSAppGetRuntimeCounterValueFromISR.Inc=1296400541</SrcFile206>
+    <SrcFile207>Drivers\Common\FreeRTOSxQueueSendToBackFromISR.Inc=1296400544</SrcFile207>
+    <SrcFile208>Drivers\sw\RTOSAdaptor\Default_RTOSAdaptor.prg=1183482931</SrcFile208>
+    <SrcFile209>Drivers\Kinetis\PinSettings_MKL16Z128LH4_4SDK.prg=-1</SrcFile209>
+    <SrcFile210>Drivers\Common\FreeRTOSxTaskGetIdleTaskHandle.Inc=1296400541</SrcFile210>
+    <SrcFile211>Drivers\Common\FreeRTOSvSemaphoreDelete.Inc=1296400545</SrcFile211>
+    <SrcFile212>Drivers\sw\CommonSupport.prg=1296400563</SrcFile212>
+    <SrcFile213>Drivers\freeRTOS\Source\portable\MemMang\heap_useNewlib.txt=1296400540</SrcFile213>
+    <SrcFile214>Drivers\Kinetis\fsl_cop.drv=-1</SrcFile214>
+    <SrcFile215>Drivers\Common\Utilitystrtailcmp.Inc=1296400560</SrcFile215>
+    <SrcFile216>Drivers\Kinetis\fsl_gpio.drv=-1</SrcFile216>
+    <SrcFile217>Drivers\Common\FreeRTOSxQueueSendToBack.Inc=1296400541</SrcFile217>
+    <SrcFile218>Drivers\Common\FreeRTOSpcTaskGetName.Inc=1296400544</SrcFile218>
+    <SrcFile219>Drivers\Common\FreeRTOSvTaskSuspend.Inc=1296400548</SrcFile219>
+    <SrcFile220>Drivers\Common\FreeRTOSxQueueReceive.Inc=1296400540</SrcFile220>
+    <SrcFile221>Drivers\freeRTOS\Source\include\FreeRTOSConfig.h=1296400539</SrcFile221>
+    <SrcFile222>Drivers\Kinetis\fsl_spi_hal.drv=-1</SrcFile222>
+    <SrcFile223>Drivers\Common\InitRegBlock.prg=1183486427</SrcFile223>
+    <SrcFile224>Drivers\fsl_gpio_hal.src=-1</SrcFile224>
+    <SrcFile225>Drivers\Common\EBGNSupport\StringLib.prg=1183486427</SrcFile225>
+    <SrcFile226>Drivers\Common\GeneralDamage.inc=1183486427</SrcFile226>
+    <SrcFile227>Drivers\Common\FreeRTOSxSemaphoreGiveRecursive.Inc=1296400541</SrcFile227>
+    <SrcFile228>Drivers\freeRTOS_Files.prg=1296400546</SrcFile228>
+    <SrcFile229>Drivers\Common\FreeRTOSxQueueSendToFrontFromISR.Inc=1296400540</SrcFile229>
+    <SrcFile230>Drivers\Common\UtilitystrcatNum32uFormatted.Inc=1296400562</SrcFile230>
+    <SrcFile231>Drivers\Common\FreeRTOSuxTaskGetStackHighWaterMark.Inc=1296400546</SrcFile231>
+    <SrcFile232>Drivers\fsl_cop_hal.src=-1</SrcFile232>
+    <SrcFile233>Drivers\Common\FreeRTOSxSemaphoreCreateBinaryStatic.Inc=1296400547</SrcFile233>
+    <SrcFile234>Drivers\Common\FreeRTOSxTaskNotifyAndQueryFromISR.Inc=1296400540</SrcFile234>
+    <SrcFile235>Drivers\Common\FreeRTOSvQueueUnregisterQueue.Inc=1296400544</SrcFile235>
+    <SrcFile236>Drivers\Kinetis\fsl_dma.drv=-1</SrcFile236>
+    <SrcFile237>Drivers\Kinetis\HAL_Port_Bridge.prg=1194226774</SrcFile237>
+    <SrcFile238>Drivers\freeRTOS\Source\include\deprecated_definitions.h=1296400540</SrcFile238>
+    <SrcFile239>Drivers\fsl_sim_hal.src=-1</SrcFile239>
+    <SrcFile240>Drivers\Utility.src=1296400561</SrcFile240>
+    <SrcFile241>Drivers\Common\FreeRTOSxTimerStart.Inc=1296400547</SrcFile241>
+    <SrcFile242>Drivers\Kinetis\fsl_sim_hal.drv=-1</SrcFile242>
+    <SrcFile243>Drivers\freeRTOS\Source\portable\MemMang\heap_useNewlib.c=1296400546</SrcFile243>
+    <SrcFile244>Drivers\Common\UtilityScanSeparatedNumbers.Inc=1296400563</SrcFile244>
+    <SrcFile245>lib\doxygen\pex.doxyfile=1183482798</SrcFile245>
+    <SrcFile246>Drivers\freeRTOS\Source\event_groups.c=1296400541</SrcFile246>
+    <SrcFile247>Drivers\Common\UtilityScanHex8uNumber.Inc=1296400559</SrcFile247>
+    <SrcFile248>Drivers\Kinetis\fsl_cop_hal.drv=-1</SrcFile248>
+    <SrcFile249>Drivers\Common\FreeRTOSAbstract.Inc=1296400545</SrcFile249>
+    <SrcFile250>Drivers\Common\FreeRTOSxSemaphoreTake.Inc=1296400547</SrcFile250>
+    <SrcFile251>Drivers\PinSettings.src=-1</SrcFile251>
+    <SrcFile252>Drivers\McuLibConfig.src=1296400545</SrcFile252>
+    <SrcFile253>Drivers\freeRTOS\Source\portable\MemMang\heap_1.c=1296400546</SrcFile253>
+    <SrcFile254>Drivers\Common\GeneralEvent.inc=1183486427</SrcFile254>
+    <SrcFile255>Drivers\Common\FreeRTOSxEventGroupClearBitsFromISR.Inc=1296400546</SrcFile255>
+    <SrcFile256>Drivers\Common\UtilitystrFind.Inc=1296400561</SrcFile256>
+    <SrcFile257>Drivers\Common\UtilitystrcatNum32Hex.Inc=1296400561</SrcFile257>
+    <SrcFile258>Drivers\Common\FreeRTOSxTaskGetSchedulerState.Inc=1296400540</SrcFile258>
+    <SrcFile259>Drivers\Common\FreeRTOStaskENTER_CRITICAL.Inc=1296400540</SrcFile259>
+    <SrcFile260>Drivers\Common\FreeRTOSvTaskResume.Inc=1296400547</SrcFile260>
+    <SrcFile261>Drivers\Common\UtilityNum32sToStr.Inc=1296400560</SrcFile261>
+    <SrcFile262>Drivers\freeRTOS\Source\include\freertos_tasks_c_additions.h=1296400544</SrcFile262>
+    <SrcFile263>Drivers\Common\UtilityReadEscapedName.Inc=1296400563</SrcFile263>
+    <SrcFile264>Drivers\freeRTOS\Source\timers.c=1296400544</SrcFile264>
+    <SrcFile265>Drivers\Common\FreeRTOSvTaskStartScheduler.Inc=1296400547</SrcFile265>
+    <SrcFile266>Drivers\Common\FreeRTOSxTaskNotifyGive.Inc=1296400544</SrcFile266>
+    <SrcFile267>Drivers\Common\DoxyGenCpuDoc.prg=1183486427</SrcFile267>
+    <SrcFile268>Drivers\Common\Static_SetConst.prg=1183486427</SrcFile268>
+    <SrcFile269>Drivers\Common\Utilityconstrain.Inc=1296400563</SrcFile269>
+    <SrcFile270>Drivers\Common\FreeRTOSxTaskGetHandle.Inc=1296400541</SrcFile270>
+    <SrcFile271>Drivers\Common\WriteBlock_NotRst.prg=1194226775</SrcFile271>
+    <SrcFile272>Drivers\Common\FreeRTOSvApplicationStackOverflowHook.Inc=1296400546</SrcFile272>
+    <SrcFile273>Drivers\Common\FreeRTOSxEventGroupGetBits.Inc=1296400541</SrcFile273>
+    <SrcFile274>Drivers\Common\Header.doxy=1183484379</SrcFile274>
+    <SrcFile275>Drivers\freeRTOS\License\license.txt=1296400546</SrcFile275>
+    <SrcFile276>Drivers\freeRTOS\Source\stream_buffer.c=1296400541</SrcFile276>
+    <SrcFile277>Drivers\Common\FreeRTOSxQueueOverwriteFromISR.Inc=1296400548</SrcFile277>
+    <SrcFile278>Drivers\Common\ToolChain_Settings.prg=1183486427</SrcFile278>
+    <SrcFile279>Drivers\Common\UtilityScanDecimal16uNumber.Inc=1296400560</SrcFile279>
+    <SrcFile280>Drivers\Kinetis\KinetisSdk_Linker_V1.prg=1194226773</SrcFile280>
+    <SrcFile281>Drivers\Common\FreeRTOSxPortGetFreeHeapSize.Inc=1296400544</SrcFile281>
+    <SrcFile282>Drivers\Common\UtilityScanTime.Inc=1296400563</SrcFile282>
+    <SrcFile283>Drivers\freeRTOS\Source\include\stream_buffer.h=1296400544</SrcFile283>
+    <SrcFile284>Drivers\Common\InitReg32Block.prg=1183486427</SrcFile284>
+    <SrcFile285>Drivers\Common\UtilityScanDecimal16sNumber.Inc=1296400561</SrcFile285>
+    <SrcFile286>Drivers\Common\FreeRTOSxEventGroupClearBits.Inc=1296400548</SrcFile286>
+    <SrcFile287>Drivers\Common\UtilitystrcatNum32u.Inc=1296400559</SrcFile287>
+    <SrcFile288>Drivers\Common\FreeRTOSvQueueAddToRegistry.Inc=1296400546</SrcFile288>
+    <SrcFile289>Drivers\Common\FreeRTOSuxQueueMessagesWaitingfromISR.Inc=1296400541</SrcFile289>
+    <SrcFile290>Drivers\Common\FreeRTOSxTimerDelete.Inc=1296400540</SrcFile290>
+    <SrcFile291>Drivers\Common\FreeRTOSxQueueReset.Inc=1296400546</SrcFile291>
+    <SrcFile292>Drivers\Common\FreeRTOSInit.Inc=1296400548</SrcFile292>
+    <SrcFile293>Drivers\Common\KinetisAbstract.inc=1183486427</SrcFile293>
+    <SrcFile294>Drivers\Kinetis\fsl_dmamux_hal.drv=-1</SrcFile294>
+    <SrcFile295>Drivers\Common\UtilitystrcatPad.Inc=1296400563</SrcFile295>
+    <SrcFile296>Drivers\Common\FreeRTOSxTimerPendFunctionCallFromISR.Inc=1296400540</SrcFile296>
+    <SrcFile297>Drivers\Common\FreeRTOSxTaskGetCurrentTaskHandle.Inc=1296400540</SrcFile297>
+    <SrcFile298>Drivers\Common\UtilitystrcatNum16uFormatted.Inc=1296400559</SrcFile298>
+    <SrcFile299>Drivers\Common\UtilitySettings.Inc=1296400561</SrcFile299>
+    <SrcFile300>Drivers\Common\FreeRTOSSettings.Inc=1296400544</SrcFile300>
+    <SrcFile301>Drivers\freeRTOS\Source\include\event_groups.h=1296400544</SrcFile301>
+    <SrcFile302>Drivers\Kinetis\fsl_spi.drv=-1</SrcFile302>
+    <SrcFile303>Drivers\Common\FreeRTOSxTimerPendFunctionCall.Inc=1296400547</SrcFile303>
+    <SrcFile304>Drivers\Common\UtilityScanDecimal8sNumber.Inc=1296400562</SrcFile304>
+    <SrcFile305>Drivers\freeRTOS\Source\tasks.c=1296400546</SrcFile305>
+    <SrcFile306>Drivers\Common\FreeRTOSxEventGroupSetBits.Inc=1296400539</SrcFile306>
+    <SrcFile307>Drivers\fsl_interrupt_manager.src=-1</SrcFile307>
+    <SrcFile308>Drivers\freeRTOS\gdbBacktraceDebug\readme_gdbBacktraceDebug.txt=1296400547</SrcFile308>
+    <SrcFile309>Drivers\Common\FreeRTOSxTaskNotify.Inc=1296400548</SrcFile309>
+    <SrcFile310>Drivers\Common\FreeRTOSuxTaskGetNumberOfTasks.Inc=1296400548</SrcFile310>
+    <SrcFile311>Drivers\Common\FreeRTOSxTimerChangePeriodFromISR.Inc=1296400546</SrcFile311>
+    <SrcFile312>Drivers\Common\Doxy_CollectRegInitInfo.prg=1183486427</SrcFile312>
+    <SrcFile313>Drivers\fsl_osc_hal.src=-1</SrcFile313>
+    <SrcFile314>Drivers\Common\FreeRTOSxEventGroupCreate.Inc=1296400541</SrcFile314>
+    <SrcFile315>Drivers\Common\UtilityNum8uToStr.Inc=1296400563</SrcFile315>
+    <SrcFile316>Drivers\freeRTOS\Source\include\FreeRTOS.h=1296400546</SrcFile316>
+    <SrcFile317>Drivers\Common\FreeRTOSuxTaskPriorityGet.Inc=1296400547</SrcFile317>
+    <SrcFile318>Drivers\Common\FreeRTOSxTaskResumeAll.Inc=1296400541</SrcFile318>
+    <SrcFile319>Drivers\Common\UtilityGetValue24LE.Inc=1296400558</SrcFile319>
+    <SrcFile320>Drivers\Common\UtilityNum16uToStrFormatted.Inc=1296400560</SrcFile320>
+    <SrcFile321>Drivers\Common\FreeRTOSxSemaphoreGetMutexHolder.Inc=1296400545</SrcFile321>
+    <SrcFile322>Drivers\Common\Utilitystrlen.Inc=1296400559</SrcFile322>
+    <SrcFile323>Drivers\Common\UtilityNum16sToStr.Inc=1296400563</SrcFile323>
+    <SrcFile324>Drivers\Common\GeneralReturnNothing.inc=1183486427</SrcFile324>
+    <SrcFile325>Drivers\Common\FreeRTOSvPortFree.Inc=1296400545</SrcFile325>
+    <SrcFile326>Drivers\Common\UtilityScanDecimal8uNumber.Inc=1296400561</SrcFile326>
+    <SrcFile327>Drivers\Common\FreeRTOSxSemaphoreCreateMutexStatic.Inc=1296400546</SrcFile327>
+    <SrcFile328>Drivers\Common\FreeRTOSxTaskNotifyFromISR.Inc=1296400547</SrcFile328>
+    <SrcFile329>Drivers\freeRTOS\Source\portable\MemMang\heap_5.c=1296400545</SrcFile329>
+    <SrcFile330>Drivers\freeRTOS\Source\portable\GCC\ARM_CM4F\port.c=1296400544</SrcFile330>
   </UsedSrcFiles>
 </GenerationInfo_G_C>
 

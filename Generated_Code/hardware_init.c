@@ -7,7 +7,7 @@
 **     Version     : Component 1.2.0, Driver 1.4, CPU db: 3.00.000
 **     Repository  : KSDK 1.3.0
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2019-06-15, 14:26, # CodeGen: 0
+**     Date/Time   : 2019-06-24, 10:08, # CodeGen: 3
 **     Abstract    :
 **
 **     Settings    :
@@ -972,6 +972,7 @@ void hardware_init(void) {
   init_gpio_pins(GPIOC_IDX);
   init_gpio_pins(GPIOD_IDX);
   init_gpio_pins(GPIOE_IDX);
+  init_llwu_pins(LLWU_IDX);
   init_rcm_pins(RCM_IDX);
   init_spi_pins(SPI0_IDX);
 }
