@@ -19,12 +19,7 @@ namespace EEPROM { namespace S25FL1K {
 
 		enum InstructionCode
 		{
-			PAGE_PROGRAM = 0x2,			// solicita a escrita
-			READ_DATA = 0x3,			// solicita a leitura
-			WRITE_DISABLE = 0x4,		// solicita que a escrita seja desabilitada
-			QUERY_WRITE_MODE = 0x5,		// pergunta se está em write enable ou write disable
 			WRITE_ENABLE = 0x6,			// solicita que a escrita seja habilitada
-			SECTOR_ERASE = 0x20			// solicita que um setor seja apagado
 		};
 
 		// tamanhos em bytes

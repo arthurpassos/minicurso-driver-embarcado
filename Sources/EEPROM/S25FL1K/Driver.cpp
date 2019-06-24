@@ -36,19 +36,6 @@ namespace EEPROM { namespace S25FL1K {
 
 		// 5) desative o chip/ slave (UP) pelo canal de comunicação
 
-		const uint8_t read_command[] =
-		{
-			InstructionCode::READ_DATA,
-			address >> 16,
-			address >> 8,
-			address & 0xFF
-		};
-
-		communication_channel.CS_DOWN();
-		communication_channel.send(reinterpret_cast<const uint8_t*>(read_command), sizeof(read_command));
-		communication_channel.read(buffer, size);
-		communication_channel.CS_UP();
-
 		return true;
 	}
 
@@ -71,25 +58,6 @@ namespace EEPROM { namespace S25FL1K {
 		// {
 		// 	Utils::delay(3);
 		//}
-
-		const uint8_t erase_sector_command[] =
-		{
-			InstructionCode::SECTOR_ERASE,
-			address >> 16,
-			address >> 8,
-			address & 0xFF
-		};
-
-		communication_channel.CS_DOWN();
-
-		communication_channel.send(reinterpret_cast<const uint8_t*>(erase_sector_command), sizeof(erase_sector_command));
-
-		communication_channel.CS_UP();
-
-		while(is_write_enabled())
-		{
-			Utils::delay(3);
-		}
 
 		return true;
 	}
@@ -147,49 +115,25 @@ namespace EEPROM { namespace S25FL1K {
 		// 4) envie o dado pelo canal de comunicação
 
 		// 5) desative o chip/ slave (UP) pelo canal de comunicação
-
-		const uint8_t write_command[] =
-		{
-			InstructionCode::PAGE_PROGRAM,
-			address >> 16,
-			address >> 8,
-			address & 0xFF
-		};
-
-		communication_channel.CS_DOWN();
-
-		communication_channel.send(reinterpret_cast<const uint8_t*>(write_command), sizeof(write_command));
-		communication_channel.send(data, size);
-
-		communication_channel.CS_UP();
 	}
 
 	void Driver::enable_write() const
 	{
-//		const InstructionCode instruction_code; // = código correspondente no ENUM/ manual.
-
-		// 1) crie um comando contendo
-		// 	o código de instrução de acordo com a especificação no manual
-
-		// 2) ative o chip/ slave (DOWN) pelo canal de comunicação
-
-		// 3) envie o comando pelo canal de comunicação
-
-		// 4) desative o chip/ slave (UP) pelo canal de comunicação
-
-		// 5) while(!is_write_enabled())
-		// {
-		//	Utils::delay(3);
-		// }
-
+		// utilizo apenas um byte porque meu comando é de apenas um byte,
+		// mas se meu comando tivesse argumentos (como o de escrita ou leitura),
+		// eu poderia utilizar um vetor, por exemplo.
 		const uint8_t write_enable_command = InstructionCode::WRITE_ENABLE;
 
+		// aviso o slave (memória) que vou falar com ela
 		communication_channel.CS_DOWN();
 
+		// envio o comando
 		communication_channel.send(&write_enable_command, sizeof(write_enable_command));
 
+		// aviso o slave (memória) que terminei de falar com ela
 		communication_channel.CS_UP();
 
+		// aguardo a escrita ser habilitada
 		while(!is_write_enabled())
 		{
 			Utils::delay(3);
@@ -239,20 +183,6 @@ namespace EEPROM { namespace S25FL1K {
 		// ao status de escrita retornado na resposta.
 
 		// 7) retorne o resultado
-
-		const uint8_t query_write_mode_action = InstructionCode::QUERY_WRITE_MODE;
-
-		uint8_t response = 0xFF;
-
-		communication_channel.CS_DOWN();
-
-		communication_channel.send(&query_write_mode_action, sizeof(query_write_mode_action));
-
-		communication_channel.read(&response, sizeof(response));
-
-		communication_channel.CS_UP();
-
-		return response & WRITE_ENABLED_MASK;
 	}
 
 

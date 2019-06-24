@@ -49,8 +49,10 @@ void task(void* param)
 
 	uint8_t read_buffer[sizeof(data)] = {0x0};
 
+	// Interface de comunicação SPI
 	SPIInterface interface(spiEEPROM_IDX, spiEEPROM_MasterConfig0);
 
+	// Canal de comunicação exclusivo com a memória, segue o padrão de projeto "decorator"
 	SPICommunicationChannel communication_channel(interface, OutputPort<Port>(SPI_CS));
 
 	EEPROM::S25FL1K::Driver driver(communication_channel, EE_VCC_CTRL);
