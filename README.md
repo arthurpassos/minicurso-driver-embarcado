@@ -1,4 +1,4 @@
-### Introduction to the development of device drivers in embedded systems - Source Code
+# Introduction to the development of device drivers in embedded systems - Source Code
 
 This repository contains the source code of a short course on embedded device drivers which I presented at the University of the Valley of Itajaí - UNIVALI.
 
