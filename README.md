@@ -11,11 +11,11 @@ This repository contains the source code of a short course on embedded device dr
 
 ## Enviroment
 
-Processor MKL16Z;
-Kinetis Design Studio 3.2;
-ProcessorExpert;
-GNU Arm Embedded Toolchain 8+;
-Segger J-Link.
+- Processor MKL16Z;
+- Kinetis Design Studio 3.2;
+- ProcessorExpert;
+- GNU Arm Embedded Toolchain 8+;
+- Segger J-Link.
 
 ## Notes
 The unimplemented methods are left for the user to implement them.
